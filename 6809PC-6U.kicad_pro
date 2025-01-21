@@ -2164,11 +2164,41 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field1",
+          "name": "Field1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -2228,7 +2258,7 @@
     ],
     [
       "00000000-0000-0000-0000-0000526c8cc7",
-      "ECB bus"
+      "ISA bus"
     ],
     [
       "00000000-0000-0000-0000-0000526c8ed2",
@@ -2269,6 +2299,10 @@
     [
       "00000000-0000-0000-0000-00005274ff22",
       "ACIA"
+    ],
+    [
+      "2f5a8eb6-a687-4b49-9ac9-0d88430969ab",
+      "ESP_IO"
     ],
     [
       "00000000-0000-0000-0000-00005274ff26",

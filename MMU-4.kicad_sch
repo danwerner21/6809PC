@@ -5,12 +5,11 @@
 	(uuid "87416f29-ba4d-406b-ae85-af9deb26461e")
 	(paper "B")
 	(title_block
-		(title "6809 and 6502 ATX and 6U")
-		(date "19 feb 2014")
-		(rev "012")
-		(company "N8VEM Users Group")
-		(comment 1 "Licensed for hobbyist use only.  All other rights reserved.")
-		(comment 2 "Copyright (c) 2013-2014  Andrew Lynch and John Coffman")
+		(title "6809PC")
+		(date "2025-01-21")
+		(rev "001")
+		(comment 1 "https://github.com/danwerner21/6809PC")
+		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS04"
@@ -10823,7 +10822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b053c")
-		(property "Reference" "U32"
+		(property "Reference" "U36"
 			(at 109.22 66.04 0)
 			(effects
 				(font
@@ -10839,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-16__300"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -10917,7 +10916,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U32")
+					(reference "U36")
 					(unit 1)
 				)
 			)
@@ -10932,7 +10931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b073c")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR086"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -10983,7 +10982,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR077")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -10999,7 +10998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b095d")
-		(property "Reference" "U29"
+		(property "Reference" "U15"
 			(at 143.51 227.33 0)
 			(effects
 				(font
@@ -11015,7 +11014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 143.51 228.6 0)
 			(effects
 				(font
@@ -11087,7 +11086,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U29")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b0a60")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR095"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -11153,7 +11152,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR086")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -11169,7 +11168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b0e5a")
-		(property "Reference" "U36"
+		(property "Reference" "U40"
 			(at 215.265 170.18 0)
 			(effects
 				(font
@@ -11187,7 +11186,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 229.87 167.64 0)
 			(effects
 				(font
@@ -11277,7 +11276,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U36")
+					(reference "U40")
 					(unit 1)
 				)
 			)
@@ -11287,13 +11286,13 @@
 		(lib_id "74xx:74LS74")
 		(at 300.99 173.99 0)
 		(mirror y)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b12b8")
-		(property "Reference" "U20"
+		(property "Reference" "U22"
 			(at 297.18 166.37 0)
 			(effects
 				(font
@@ -11309,7 +11308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 300.99 173.99 0)
 			(effects
 				(font
@@ -11381,8 +11380,8 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U20")
-					(unit 1)
+					(reference "U22")
+					(unit 2)
 				)
 			)
 		)
@@ -11398,7 +11397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526b12fe")
-		(property "Reference" "U29"
+		(property "Reference" "U15"
 			(at 316.23 186.69 0)
 			(effects
 				(font
@@ -11414,7 +11413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 316.23 187.96 0)
 			(effects
 				(font
@@ -11486,7 +11485,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U29")
+					(reference "U15")
 					(unit 2)
 				)
 			)
@@ -11501,7 +11500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526f9bb8")
-		(property "Reference" "U38"
+		(property "Reference" "U42"
 			(at 269.24 60.96 0)
 			(effects
 				(font
@@ -11517,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-16__300"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -11595,7 +11594,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U38")
+					(reference "U42")
 					(unit 1)
 				)
 			)
@@ -11610,7 +11609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526f9bef")
-		(property "Reference" "U39"
+		(property "Reference" "U43"
 			(at 281.94 109.22 0)
 			(effects
 				(font
@@ -11626,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-16__300"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 280.67 113.03 0)
 			(effects
 				(font
@@ -11704,7 +11703,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U39")
+					(reference "U43")
 					(unit 1)
 				)
 			)
@@ -11719,7 +11718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526f9cfd")
-		(property "Reference" "U41"
+		(property "Reference" "U45"
 			(at 382.27 78.74 0)
 			(effects
 				(font
@@ -11735,7 +11734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 381 73.66 0)
 			(effects
 				(font
@@ -11825,7 +11824,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U41")
+					(reference "U45")
 					(unit 1)
 				)
 			)
@@ -11840,7 +11839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526f9d12")
-		(property "Reference" "U40"
+		(property "Reference" "U44"
 			(at 372.11 39.37 0)
 			(effects
 				(font
@@ -11856,7 +11855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 370.84 34.29 0)
 			(effects
 				(font
@@ -11946,7 +11945,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U40")
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -11962,7 +11961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052713889")
-		(property "Reference" "U37"
+		(property "Reference" "U41"
 			(at 232.41 241.3 0)
 			(effects
 				(font
@@ -11978,7 +11977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-16__300"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 229.87 228.6 0)
 			(effects
 				(font
@@ -12056,7 +12055,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U37")
+					(reference "U41")
 					(unit 1)
 				)
 			)
@@ -12071,7 +12070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052713abe")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0105"
 			(at 300.99 163.83 0)
 			(effects
 				(font
@@ -12121,7 +12120,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR095")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12136,7 +12135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527141dc")
-		(property "Reference" "U33"
+		(property "Reference" "U37"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -12152,7 +12151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -12242,7 +12241,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U33")
+					(reference "U37")
 					(unit 1)
 				)
 			)
@@ -12257,7 +12256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527143d2")
-		(property "Reference" "U30"
+		(property "Reference" "U34"
 			(at 58.42 158.75 0)
 			(effects
 				(font
@@ -12273,7 +12272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-16__300"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -12351,7 +12350,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U30")
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -12366,7 +12365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052714556")
-		(property "Reference" "U34"
+		(property "Reference" "U38"
 			(at 120.65 167.64 0)
 			(effects
 				(font
@@ -12382,7 +12381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 119.38 162.56 0)
 			(effects
 				(font
@@ -12472,7 +12471,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U34")
+					(reference "U38")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005271469e")
-		(property "Reference" "U31"
+		(property "Reference" "U35"
 			(at 76.2 203.2 0)
 			(effects
 				(font
@@ -12503,7 +12502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-20__300"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket_LongPads"
 			(at 81.28 201.93 0)
 			(effects
 				(font
@@ -12593,7 +12592,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U31")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -12625,7 +12624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 119.38 194.31 0)
 			(effects
 				(font
@@ -12713,7 +12712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527149ff")
-		(property "Reference" "U29"
+		(property "Reference" "U15"
 			(at 307.34 227.33 0)
 			(effects
 				(font
@@ -12729,7 +12728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 307.34 228.6 0)
 			(effects
 				(font
@@ -12801,7 +12800,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U29")
+					(reference "U15")
 					(unit 4)
 				)
 			)
@@ -12817,7 +12816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052714cb1")
-		(property "Reference" "U29"
+		(property "Reference" "U15"
 			(at 26.67 200.66 0)
 			(effects
 				(font
@@ -12833,7 +12832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP-14__300"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 27.94 200.66 0)
 			(effects
 				(font
@@ -12905,7 +12904,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U29")
+					(reference "U15")
 					(unit 3)
 				)
 			)
@@ -12920,7 +12919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000530012af")
-		(property "Reference" "U35"
+		(property "Reference" "U39"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -12936,7 +12935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm_Socket_LongPads"
 			(at 187.96 92.71 0)
 			(effects
 				(font
@@ -13050,7 +13049,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "U35")
+					(reference "U39")
 					(unit 1)
 				)
 			)
@@ -13065,7 +13064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005300137b")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR094"
 			(at 154.94 101.6 0)
 			(effects
 				(font
@@ -13115,7 +13114,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR085")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -13130,7 +13129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0adedc45-b135-4fe4-8c79-3f7ba84b7ae2")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR089"
 			(at 107.95 95.25 0)
 			(effects
 				(font
@@ -13181,7 +13180,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR080")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -13196,7 +13195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "137e1489-09e9-45f0-aabc-ed16e97aed2e")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR084"
 			(at 58.42 180.34 0)
 			(effects
 				(font
@@ -13247,7 +13246,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR075")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -13262,7 +13261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13c59939-68d3-4cbf-958e-4b9a9a1b8659")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR083"
 			(at 58.42 139.7 0)
 			(effects
 				(font
@@ -13312,7 +13311,72 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR074")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 280.67 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b84ba6e-90ba-4ba3-880a-ff5c5cb2ae09")
+		(property "Reference" "#PWR0103"
+			(at 280.67 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 280.67 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 280.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a798c62f-6d3a-4e6c-955d-79d49532d917")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -13327,7 +13391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ec7d4ae-bdb1-465c-8862-aaad800fb2d6")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0106"
 			(at 370.84 11.43 0)
 			(effects
 				(font
@@ -13377,7 +13441,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR096")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -13392,7 +13456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3392f61e-d75e-46cf-b4ed-93b6c2883385")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0108"
 			(at 381 50.8 0)
 			(effects
 				(font
@@ -13442,7 +13506,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR098")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -13457,7 +13521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e29adac-3590-4c4a-8660-b9ab4e3359ef")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR088"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -13507,7 +13571,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR079")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -13522,7 +13586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "519b8367-2e1a-4e6c-8991-f3288d611e20")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR098"
 			(at 229.87 208.28 0)
 			(effects
 				(font
@@ -13572,7 +13636,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR089")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -13587,7 +13651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74e155b9-d55c-40fa-96d8-4f25239d96f7")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0107"
 			(at 370.84 54.61 0)
 			(effects
 				(font
@@ -13638,7 +13702,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR097")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -13653,7 +13717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f5d80cc-5243-4561-b3be-f7e37030a43a")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0104"
 			(at 280.67 138.43 0)
 			(effects
 				(font
@@ -13704,7 +13768,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR094")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -13719,7 +13783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82b42cc8-a232-47a7-b68d-46295f889150")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR096"
 			(at 187.96 64.77 0)
 			(effects
 				(font
@@ -13769,7 +13833,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR087")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -13784,7 +13848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fce73f3-0243-4ad4-8a8c-ed24ef06f3e8")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR092"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -13834,7 +13898,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR083")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -13849,7 +13913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "930113af-9eb3-43c7-acf2-bb4f1d247a91")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR091"
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -13900,7 +13964,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR082")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -13915,7 +13979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "971906b4-f093-4957-96ef-3f1598a6439b")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0101"
 			(at 267.97 39.37 0)
 			(effects
 				(font
@@ -13965,7 +14029,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR092")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13980,7 +14044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dc11079-c5cf-45b1-9ec0-8ee40c3f1c59")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0109"
 			(at 384.81 91.44 0)
 			(effects
 				(font
@@ -14031,7 +14095,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR099")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -14046,7 +14110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e3e278f-3bbd-4589-a989-b5a508d80eef")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0102"
 			(at 267.97 90.17 0)
 			(effects
 				(font
@@ -14097,7 +14161,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR093")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -14112,7 +14176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddc7179c-34a6-4f39-ae47-2806ad7ebf0f")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR085"
 			(at 60.96 201.93 0)
 			(effects
 				(font
@@ -14163,7 +14227,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR076")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -14178,7 +14242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfffb889-dd07-4dab-838d-1fb0b9f26d71")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR093"
 			(at 119.38 182.88 0)
 			(effects
 				(font
@@ -14229,7 +14293,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR084")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -14244,7 +14308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22efb13-166a-416c-a2b1-35695f8c0add")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR087"
 			(at 101.6 199.39 0)
 			(effects
 				(font
@@ -14294,7 +14358,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR078")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -14309,7 +14373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2d7f3e1-9b3e-4803-8da9-d236a2effcd5")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR090"
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -14359,7 +14423,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR081")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -14374,7 +14438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ed84dc-645d-4799-84af-7e628f613841")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR097"
 			(at 209.55 165.1 0)
 			(effects
 				(font
@@ -14424,7 +14488,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR088")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -14439,7 +14503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec01823d-809a-42f8-99ef-ceab2108bde2")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0100"
 			(at 250.19 168.91 0)
 			(effects
 				(font
@@ -14490,7 +14554,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR091")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f980a633-fa65-4c09-a3ce-377e13e8d17d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR099"
 			(at 229.87 243.84 0)
 			(effects
 				(font
@@ -14556,7 +14620,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526ca311"
-					(reference "#PWR090")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)

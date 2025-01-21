@@ -5,12 +5,11 @@
 	(uuid "398f8c0a-b66e-4a20-ae32-57df5bdf4e3a")
 	(paper "A")
 	(title_block
-		(title "6809 and 6502 ATX and 6U")
-		(date "19 feb 2014")
-		(rev "012")
-		(company "N8VEM Users Group")
-		(comment 1 "Licensed for hobbyist use only.  All other rights reserved.")
-		(comment 2 "Copyright (c) 2013-2014  Andrew Lynch and John Coffman")
+		(title "6809PC")
+		(date "2025-01-21")
+		(rev "001")
+		(comment 1 "https://github.com/danwerner21/6809PC")
+		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -1095,7 +1094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PIN_ARRAY_2X1"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -1162,7 +1161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_PUSH_SMALL"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -1213,7 +1212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a49356b-b15d-4d28-96ae-8eab0877167e")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 101.092 101.6 0)
 			(effects
 				(font
@@ -1231,7 +1230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C2"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 107.6452 107.95 0)
 			(effects
 				(font
@@ -1267,7 +1266,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d81d3"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -1282,7 +1281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "591169f1-95bb-465b-8423-da7b11e6fffd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR064"
 			(at 100.33 87.63 0)
 			(effects
 				(font
@@ -1333,7 +1332,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d81d3"
-					(reference "#PWR052")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aa6e4ac-531c-4ca8-a3a9-032041460313")
-		(property "Reference" "U23"
+		(property "Reference" "U28"
 			(at 96.52 72.39 90)
 			(effects
 				(font
@@ -1403,7 +1402,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d81d3"
-					(reference "U23")
+					(reference "U28")
 					(unit 1)
 				)
 			)
@@ -1418,7 +1417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e648acd-34ae-4431-a834-9ab546c9bae4")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR066"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -1469,7 +1468,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d81d3"
-					(reference "#PWR054")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1484,7 +1483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd69ec36-ec68-4519-981b-ddf52df496cd")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR065"
 			(at 107.95 85.09 0)
 			(effects
 				(font
@@ -1534,7 +1533,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d81d3"
-					(reference "#PWR053")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

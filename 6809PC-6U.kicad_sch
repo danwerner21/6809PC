@@ -5,69 +5,16 @@
 	(uuid "d94f9d60-5ece-4752-b49c-b0d1c95f35bc")
 	(paper "A")
 	(title_block
-		(title "6809 and 6502 ATX and 6U")
-		(date "19 feb 2014")
-		(rev "012")
-		(company "N8VEM Users Group")
-		(comment 1 "Licensed for hobbyist use only.  All other rights reserved.")
-		(comment 2 "Copyright (c) 2013-2014  Andrew Lynch and John Coffman")
+		(title "6809PC")
+		(date "2025-01-21")
+		(rev "001")
+		(comment 1 "https://github.com/danwerner21/6809PC")
+		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
 	(lib_symbols)
-	(text "change to ISA"
-		(exclude_from_sim no)
-		(at 35.814 59.69 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ef5c9be-8e13-4a4f-b44e-62fb7e7833e7")
-	)
-	(text "Need Video (ESP32)"
-		(exclude_from_sim no)
-		(at 36.068 56.134 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "474dcaf0-45bd-4cbb-8c21-fd1b340e51b6")
-	)
-	(text "New RTC"
-		(exclude_from_sim no)
-		(at 36.322 67.818 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bccb47f-f0a3-431c-ad40-4baaf1eed051")
-	)
-	(text "STD TTL Serial Connector"
-		(exclude_from_sim no)
-		(at 36.068 71.12 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5a7a90e-6da3-4dfb-a790-4c2ecffd8ee1")
-	)
 	(text "Better IO Decoding"
 		(exclude_from_sim no)
-		(at 36.068 63.754 0)
+		(at 34.036 121.412 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -90,7 +37,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-0000526c8cc7")
-		(property "Sheetname" "ECB bus"
+		(property "Sheetname" "ISA bus"
 			(at 30.48 28.3714 0)
 			(effects
 				(font
@@ -193,7 +140,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 60.96)
+		(at 113.03 29.21)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -205,7 +152,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000526ca311")
 		(property "Sheetname" "MMU four"
-			(at 114.3 60.1214 0)
+			(at 113.03 28.3714 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -214,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "MMU-4.kicad_sch"
-			(at 114.3 76.8862 0)
+			(at 113.03 45.1362 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -231,7 +178,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 156.21)
+		(at 30.48 58.42)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -243,7 +190,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000526d2858")
 		(property "Sheetname" "Power"
-			(at 30.48 155.3714 0)
+			(at 30.48 57.5814 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -252,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 30.48 172.1362 0)
+			(at 30.48 74.3462 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -307,7 +254,7 @@
 		)
 	)
 	(sheet
-		(at 72.39 127)
+		(at 113.03 59.69)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -319,7 +266,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000526d48aa")
 		(property "Sheetname" "Spare"
-			(at 72.39 126.1614 0)
+			(at 113.03 58.8514 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -328,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "Spare.kicad_sch"
-			(at 72.39 142.9262 0)
+			(at 113.03 75.6162 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -383,7 +330,7 @@
 		)
 	)
 	(sheet
-		(at 72.39 156.21)
+		(at 114.3 90.17)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -395,7 +342,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000526d81d3")
 		(property "Sheetname" "Reset"
-			(at 72.39 155.3714 0)
+			(at 114.3 89.3314 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -404,7 +351,7 @@
 			)
 		)
 		(property "Sheetfile" "Reset.kicad_sch"
-			(at 72.39 172.1362 0)
+			(at 114.3 106.0962 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -530,6 +477,44 @@
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc"
 					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 29.21)
+		(size 24.13 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f5a8eb6-a687-4b49-9ac9-0d88430969ab")
+		(property "Sheetname" "ESP_IO"
+			(at 198.12 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP_IO.kicad_sch"
+			(at 198.12 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc"
+					(page "14")
 				)
 			)
 		)

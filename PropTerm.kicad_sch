@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "155af8dc-d82d-4057-ab91-bae85b5e099f")
+	(paper "B")
+	(title_block
+		(title "6809 and 6502 ATX and 6U")
+		(date "19 feb 2014")
+		(rev "012")
+		(company "N8VEM Users Group")
+		(comment 1 "Licensed for hobbyist use only.  All other rights reserved.")
+		(comment 2 "Copyright (c) 2013-2014  Andrew Lynch and John Coffman")
+	)
+	(lib_symbols)
+)

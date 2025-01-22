@@ -11909,6 +11909,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 223.52) (xy 48.26 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca4e56-c038-45a6-9460-3237b19388b1")
+	)
+	(wire
+		(pts
 			(xy 238.76 184.15) (xy 251.46 184.15)
 		)
 		(stroke
@@ -11946,6 +11956,16 @@
 			(type default)
 		)
 		(uuid "8ee866b9-13f1-4537-962e-e439938372d5")
+	)
+	(wire
+		(pts
+			(xy 62.23 229.87) (xy 63.5 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f936914-cb3c-4b55-ab7d-0b78bbeb1e8e")
 	)
 	(wire
 		(pts
@@ -12339,6 +12359,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 229.87) (xy 48.26 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c4227a-08a6-4f4b-ae51-f83960773a51")
+	)
+	(wire
+		(pts
 			(xy 127 220.98) (xy 127 222.25)
 		)
 		(stroke
@@ -12346,6 +12376,16 @@
 			(type default)
 		)
 		(uuid "c55efd79-75c5-4d7c-afec-f714ff0c97c4")
+	)
+	(polyline
+		(pts
+			(xy 73.66 223.52) (xy 73.66 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c7487179-eaf3-478d-86f7-9579a4427c72")
 	)
 	(wire
 		(pts
@@ -12519,7 +12559,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.91 223.52) (xy 73.66 223.52)
+			(xy 41.91 233.68) (xy 73.66 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12589,6 +12629,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 212.09) (xy 48.26 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de83bf61-548b-44ea-915f-346bdf2a0574")
+	)
+	(wire
+		(pts
 			(xy 364.49 50.8) (xy 344.17 50.8)
 		)
 		(stroke
@@ -12636,6 +12686,16 @@
 			(type default)
 		)
 		(uuid "e1cb4625-ce34-4bf4-8b70-06c7bb78854a")
+	)
+	(polyline
+		(pts
+			(xy 41.91 223.52) (xy 41.91 233.68)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e234c50f-6a8d-4041-81f3-f112451e8d1e")
 	)
 	(wire
 		(pts
@@ -12696,6 +12756,16 @@
 			(type default)
 		)
 		(uuid "e907fae3-8f7a-42e2-b7fe-e967404aabba")
+	)
+	(wire
+		(pts
+			(xy 46.99 217.17) (xy 48.26 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb38b94a-5176-4b5f-87cd-8ae9131af021")
 	)
 	(wire
 		(pts
@@ -12789,6 +12859,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 223.52) (xy 63.5 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f161507d-73b6-424f-8288-dcad48ec12d4")
+	)
+	(wire
+		(pts
 			(xy 265.43 176.53) (xy 278.13 176.53)
 		)
 		(stroke
@@ -12876,6 +12956,16 @@
 			(type default)
 		)
 		(uuid "fc1b33c6-68e3-4534-b6d3-9d3c34e44601")
+	)
+	(wire
+		(pts
+			(xy 62.23 217.17) (xy 63.5 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf73911-2cf0-460a-b420-a128fe888a59")
 	)
 	(wire
 		(pts
@@ -13073,7 +13163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d307b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR067"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -13123,7 +13213,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR031")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -13203,7 +13293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3087")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR068"
 			(at 104.14 163.83 0)
 			(effects
 				(font
@@ -13254,7 +13344,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR032")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -13288,7 +13378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 103.1748 162.56 0)
 			(effects
 				(font
@@ -13404,7 +13494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d309e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR081"
 			(at 148.59 121.92 0)
 			(effects
 				(font
@@ -13455,7 +13545,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR045")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -13470,7 +13560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d30a9")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR069"
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -13521,7 +13611,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR033")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -13536,7 +13626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d30b0")
-		(property "Reference" "P7"
+		(property "Reference" "P11"
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -13642,7 +13732,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "P7")
+					(reference "P11")
 					(unit 1)
 				)
 			)
@@ -13738,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR"
+		(property "Footprint" "Custom:STD_DDW_TACTSW"
 			(at 198.12 123.19 0)
 			(effects
 				(font
@@ -13805,7 +13895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 349.25 123.19 0)
 			(effects
 				(font
@@ -13908,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 267.97 120.65 0)
 			(effects
 				(font
@@ -14011,7 +14101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 256.54 107.95 0)
 			(effects
 				(font
@@ -14114,7 +14204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 349.25 113.03 0)
 			(effects
 				(font
@@ -14217,7 +14307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 349.25 102.87 0)
 			(effects
 				(font
@@ -14320,7 +14410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 245.11 120.65 0)
 			(effects
 				(font
@@ -14423,7 +14513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Custom:STD_DDW_RESISTOR"
 			(at 193.802 99.06 90)
 			(effects
 				(font
@@ -14492,7 +14582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 230.8352 132.08 0)
 			(effects
 				(font
@@ -14559,7 +14649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Custom:STD_DDW_DIODE"
 			(at 229.87 99.06 0)
 			(effects
 				(font
@@ -14644,7 +14734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Custom:STD_DDW_DIODE"
 			(at 213.36 99.06 0)
 			(effects
 				(font
@@ -14731,7 +14821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 214.3252 132.08 0)
 			(effects
 				(font
@@ -14798,7 +14888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Custom:STD_DDW_RESISTOR"
 			(at 224.028 99.06 90)
 			(effects
 				(font
@@ -14865,7 +14955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Custom:STD_DDW_RESISTOR"
 			(at 204.47 106.172 90)
 			(effects
 				(font
@@ -14916,7 +15006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3199")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR083"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -14967,7 +15057,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR047")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -14982,7 +15072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d319f")
-		(property "Reference" "P8"
+		(property "Reference" "P12"
 			(at 187.706 118.618 90)
 			(effects
 				(font
@@ -14998,7 +15088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_1x02"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -15034,7 +15124,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "P8")
+					(reference "P12")
 					(unit 1)
 				)
 			)
@@ -15132,7 +15222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 342.5952 184.15 0)
 			(effects
 				(font
@@ -15201,7 +15291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 329.8952 184.15 0)
 			(effects
 				(font
@@ -15270,7 +15360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 317.1952 184.15 0)
 			(effects
 				(font
@@ -15339,7 +15429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 304.4952 184.15 0)
 			(effects
 				(font
@@ -15408,7 +15498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 291.7952 184.15 0)
 			(effects
 				(font
@@ -15477,7 +15567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 279.0952 184.15 0)
 			(effects
 				(font
@@ -15546,7 +15636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 266.3952 184.15 0)
 			(effects
 				(font
@@ -15615,7 +15705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 252.4252 184.15 0)
 			(effects
 				(font
@@ -15684,7 +15774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 239.7252 184.15 0)
 			(effects
 				(font
@@ -15753,7 +15843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 227.0252 184.15 0)
 			(effects
 				(font
@@ -15822,7 +15912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 214.3252 184.15 0)
 			(effects
 				(font
@@ -15873,7 +15963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3a20")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR073"
 			(at 127 186.69 0)
 			(effects
 				(font
@@ -15924,7 +16014,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR037")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -15939,7 +16029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3a26")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR072"
 			(at 127 172.72 0)
 			(effects
 				(font
@@ -15989,7 +16079,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR036")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -16022,7 +16112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 201.6252 184.15 0)
 			(effects
 				(font
@@ -16091,7 +16181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 188.9252 184.15 0)
 			(effects
 				(font
@@ -16160,7 +16250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 174.9552 184.15 0)
 			(effects
 				(font
@@ -16229,7 +16319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 162.2552 184.15 0)
 			(effects
 				(font
@@ -16298,7 +16388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 149.5552 184.15 0)
 			(effects
 				(font
@@ -16367,7 +16457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 136.8552 184.15 0)
 			(effects
 				(font
@@ -16436,7 +16526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 239.7252 229.87 0)
 			(effects
 				(font
@@ -16505,7 +16595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 227.0252 229.87 0)
 			(effects
 				(font
@@ -16574,7 +16664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 214.3252 229.87 0)
 			(effects
 				(font
@@ -16625,7 +16715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3a80")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR077"
 			(at 127 232.41 0)
 			(effects
 				(font
@@ -16676,7 +16766,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR041")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -16691,7 +16781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3a86")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR076"
 			(at 127 218.44 0)
 			(effects
 				(font
@@ -16741,7 +16831,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR040")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -16774,7 +16864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 201.6252 229.87 0)
 			(effects
 				(font
@@ -16843,7 +16933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 188.9252 229.87 0)
 			(effects
 				(font
@@ -16912,7 +17002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 174.9552 229.87 0)
 			(effects
 				(font
@@ -16981,7 +17071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 162.2552 229.87 0)
 			(effects
 				(font
@@ -17050,7 +17140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 149.5552 229.87 0)
 			(effects
 				(font
@@ -17119,7 +17209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 136.8552 229.87 0)
 			(effects
 				(font
@@ -17170,7 +17260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3ab0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR079"
 			(at 127 254 0)
 			(effects
 				(font
@@ -17221,7 +17311,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR043")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -17254,7 +17344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 188.9252 251.46 0)
 			(effects
 				(font
@@ -17323,7 +17413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 174.9552 251.46 0)
 			(effects
 				(font
@@ -17392,7 +17482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 162.2552 251.46 0)
 			(effects
 				(font
@@ -17461,7 +17551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 149.5552 251.46 0)
 			(effects
 				(font
@@ -17530,7 +17620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 136.8552 251.46 0)
 			(effects
 				(font
@@ -17581,7 +17671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3ad4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR078"
 			(at 127 240.03 0)
 			(effects
 				(font
@@ -17631,7 +17721,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR042")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -17646,7 +17736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b16")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR055"
 			(at 62.23 205.74 0)
 			(effects
 				(font
@@ -17697,7 +17787,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR022")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17712,7 +17802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b1c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR052"
 			(at 46.99 205.74 0)
 			(effects
 				(font
@@ -17763,7 +17853,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR020")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17778,7 +17868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b22")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR054"
 			(at 62.23 199.39 0)
 			(effects
 				(font
@@ -17829,7 +17919,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR021")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17844,7 +17934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b28")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR051"
 			(at 46.99 199.39 0)
 			(effects
 				(font
@@ -17895,7 +17985,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR019")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17910,7 +18000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b2e")
-		(property "Reference" "P5"
+		(property "Reference" "P6"
 			(at 70.612 205.994 90)
 			(effects
 				(font
@@ -17927,7 +18017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 66.04 205.74 0)
 			(effects
 				(font
@@ -17960,7 +18050,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "P5")
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -17975,7 +18065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b34")
-		(property "Reference" "P4"
+		(property "Reference" "P5"
 			(at 70.612 199.39 90)
 			(effects
 				(font
@@ -17992,7 +18082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 66.04 199.39 0)
 			(effects
 				(font
@@ -18025,7 +18115,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "P4")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -18057,7 +18147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 50.8 205.74 0)
 			(effects
 				(font
@@ -18122,7 +18212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 50.8 199.39 0)
 			(effects
 				(font
@@ -18170,7 +18260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b46")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR056"
 			(at 62.23 212.09 0)
 			(effects
 				(font
@@ -18221,7 +18311,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR023")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -18236,7 +18326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526d3b4c")
-		(property "Reference" "P6"
+		(property "Reference" "P7"
 			(at 70.866 212.09 90)
 			(effects
 				(font
@@ -18253,7 +18343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 66.04 212.09 0)
 			(effects
 				(font
@@ -18286,7 +18376,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "P6")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -18301,7 +18391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f46ee")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR065"
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -18351,7 +18441,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR029")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -18366,7 +18456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f46f4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR066"
 			(at 91.44 163.83 0)
 			(effects
 				(font
@@ -18417,7 +18507,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR030")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18451,7 +18541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 90.4748 162.56 0)
 			(effects
 				(font
@@ -18502,7 +18592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f4700")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR063"
 			(at 78.74 151.13 0)
 			(effects
 				(font
@@ -18552,7 +18642,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR027")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -18567,7 +18657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f4706")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR064"
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -18618,7 +18708,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR028")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -18652,7 +18742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 77.7748 162.56 0)
 			(effects
 				(font
@@ -18703,7 +18793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f4712")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR060"
 			(at 66.04 151.13 0)
 			(effects
 				(font
@@ -18753,7 +18843,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR024")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -18768,7 +18858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000527f4718")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR061"
 			(at 66.04 163.83 0)
 			(effects
 				(font
@@ -18819,7 +18909,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR025")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -18853,7 +18943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Custom:STD_DDW_PCAP"
 			(at 65.0748 162.56 0)
 			(effects
 				(font
@@ -18922,7 +19012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 342.5952 207.01 0)
 			(effects
 				(font
@@ -18991,7 +19081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 329.8952 207.01 0)
 			(effects
 				(font
@@ -19060,7 +19150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 317.1952 207.01 0)
 			(effects
 				(font
@@ -19129,7 +19219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 304.4952 207.01 0)
 			(effects
 				(font
@@ -19198,7 +19288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 291.7952 207.01 0)
 			(effects
 				(font
@@ -19267,7 +19357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 279.0952 207.01 0)
 			(effects
 				(font
@@ -19336,7 +19426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 266.3952 207.01 0)
 			(effects
 				(font
@@ -19405,7 +19495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 252.4252 207.01 0)
 			(effects
 				(font
@@ -19474,7 +19564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 239.7252 207.01 0)
 			(effects
 				(font
@@ -19543,7 +19633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 227.0252 207.01 0)
 			(effects
 				(font
@@ -19612,7 +19702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 214.3252 207.01 0)
 			(effects
 				(font
@@ -19663,7 +19753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052802073")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR075"
 			(at 127 209.55 0)
 			(effects
 				(font
@@ -19714,7 +19804,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR039")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -19729,7 +19819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052802079")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR074"
 			(at 127 195.58 0)
 			(effects
 				(font
@@ -19779,7 +19869,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR038")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -19812,7 +19902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 201.6252 207.01 0)
 			(effects
 				(font
@@ -19881,7 +19971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 188.9252 207.01 0)
 			(effects
 				(font
@@ -19950,7 +20040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 174.9552 207.01 0)
 			(effects
 				(font
@@ -20019,7 +20109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 162.2552 207.01 0)
 			(effects
 				(font
@@ -20088,7 +20178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 149.5552 207.01 0)
 			(effects
 				(font
@@ -20157,7 +20247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 136.8552 207.01 0)
 			(effects
 				(font
@@ -20226,7 +20316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Custom:STD_DDW_CAP"
 			(at 252.4252 229.87 0)
 			(effects
 				(font
@@ -20293,7 +20383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 231.14 38.1 0)
 			(effects
 				(font
@@ -20372,6 +20462,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07f9c1cd-9d0d-4c3f-9575-4cfe25d01d07")
+		(property "Reference" "#PWR0209"
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 231.648 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2c2f865-f525-4f8f-97cd-dbd99783003a")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS07")
 		(at 181.61 38.1 0)
 		(unit 7)
@@ -20396,7 +20552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -20483,7 +20639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1395d8fc-3da9-4c48-82dd-32f2ac095b8c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR062"
 			(at 78.74 121.92 0)
 			(effects
 				(font
@@ -20533,7 +20689,7 @@
 		(instances
 			(project ""
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR026")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -20564,7 +20720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 364.49 38.1 0)
 			(effects
 				(font
@@ -20598,40 +20754,40 @@
 			(uuid "b573a6c6-d753-41bc-98ea-d92fcac38761")
 		)
 		(pin "14"
-			(uuid "1f69db7c-54eb-4390-a1f8-3d0a9b517f8e")
+			(uuid "1f69db7c-54eb-4390-a1f8-3d0a9b517f8f")
 		)
 		(pin "3"
-			(uuid "19c3fbf3-5c1a-4cb8-b91a-6dfcccb3a4e0")
+			(uuid "19c3fbf3-5c1a-4cb8-b91a-6dfcccb3a4e1")
 		)
 		(pin "4"
-			(uuid "039e15e8-6158-4275-a386-6152953b6d79")
+			(uuid "039e15e8-6158-4275-a386-6152953b6d7a")
 		)
 		(pin "5"
-			(uuid "1c81b868-d4fa-492e-81ed-0fb525926bbf")
+			(uuid "1c81b868-d4fa-492e-81ed-0fb525926bc0")
 		)
 		(pin "6"
-			(uuid "4ea075d9-56bc-46fe-9b4c-960c264e93cf")
+			(uuid "4ea075d9-56bc-46fe-9b4c-960c264e93d0")
 		)
 		(pin "8"
-			(uuid "17eb3270-f028-4681-b9df-5e1610ddffcd")
+			(uuid "17eb3270-f028-4681-b9df-5e1610ddffce")
 		)
 		(pin "10"
-			(uuid "a6ed3d73-1b50-440a-9fb7-8ee7655690c7")
+			(uuid "a6ed3d73-1b50-440a-9fb7-8ee7655690c8")
 		)
 		(pin "9"
-			(uuid "c60d1259-9493-480e-95ef-654a55591765")
+			(uuid "c60d1259-9493-480e-95ef-654a55591766")
 		)
 		(pin "7"
-			(uuid "1380c277-d8b6-497e-89f4-ed81fe35d45e")
+			(uuid "1380c277-d8b6-497e-89f4-ed81fe35d45f")
 		)
 		(pin "13"
-			(uuid "70c924ab-67cc-42be-8991-553c61240c70")
+			(uuid "70c924ab-67cc-42be-8991-553c61240c71")
 		)
 		(pin "12"
-			(uuid "caae69d4-17d6-46f4-bca0-63f0f3331845")
+			(uuid "caae69d4-17d6-46f4-bca0-63f0f3331846")
 		)
 		(pin "11"
-			(uuid "b6e3da85-c7ce-4457-abc2-415eb7d6e69a")
+			(uuid "b6e3da85-c7ce-4457-abc2-415eb7d6e69b")
 		)
 		(instances
 			(project "6809PC-6U"
@@ -20667,7 +20823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 281.94 38.1 0)
 			(effects
 				(font
@@ -20770,7 +20926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 306.07 38.1 0)
 			(effects
 				(font
@@ -20873,7 +21029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 269.24 38.1 0)
 			(effects
 				(font
@@ -21017,6 +21173,202 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b5fbd9b-3add-4ebe-af5b-3d426a3456c7")
+		(property "Reference" "#PWR058"
+			(at 62.23 223.52 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 225.298 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79af5956-540c-42c6-83af-f92d684dc2d9")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 217.17 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "32462fc7-be25-4b2e-83fa-48890f2969ef")
+		(property "Reference" "P21"
+			(at 55.372 217.17 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 51.816 215.9 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 50.8 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72724113-0948-4c71-b1ca-1320e1f34c8c")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 217.17 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "370c8447-af58-4bc9-80c1-669553e1ae36")
+		(property "Reference" "P8"
+			(at 70.612 217.17 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 67.056 215.9 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 66.04 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7d7233-ef36-490d-bcef-1953e86cacad")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 213.36 38.1 0)
 		(unit 5)
@@ -21043,7 +21395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 213.36 38.1 0)
 			(effects
 				(font
@@ -21146,7 +21498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 318.77 38.1 0)
 			(effects
 				(font
@@ -21251,7 +21603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 256.54 38.1 0)
 			(effects
 				(font
@@ -21422,7 +21774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 306.07 113.03 0)
 			(effects
 				(font
@@ -21509,7 +21861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53de7c66-e94c-4fee-972a-c3d97af218e9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR082"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -21559,7 +21911,7 @@
 		(instances
 			(project ""
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR046")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -21574,7 +21926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57852623-d67c-4c69-b7db-c3a6d6a5318a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR080"
 			(at 146.05 101.6 0)
 			(effects
 				(font
@@ -21624,7 +21976,72 @@
 		(instances
 			(project ""
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR044")
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 229.87 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "587061ad-ad49-4fdb-87c5-fa8763b7894a")
+		(property "Reference" "P23"
+			(at 55.626 229.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 51.816 228.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 50.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d765cc9a-cb41-4bdf-b10d-c13469ee27ea")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P23")
 					(unit 1)
 				)
 			)
@@ -21696,6 +22113,333 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 212.09 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f91f72d-c51c-4312-a314-fed3db93122a")
+		(property "Reference" "P4"
+			(at 55.372 212.09 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 51.816 210.82 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 50.8 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b985bea3-f495-47a8-85b8-c14f256622b2")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "730ec41e-0923-43d5-bbed-609c69af0154")
+		(property "Reference" "#PWR0208"
+			(at 46.99 223.52 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 225.298 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7f0957-d331-4b78-a901-98e0d060c45c")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 223.52 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a79f9e6-c898-468d-b05b-78e86b94e997")
+		(property "Reference" "P9"
+			(at 70.612 223.774 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 67.056 222.25 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 66.04 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ffff91-aeed-48e8-8f9d-3d9c9d10f727")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cbd0b12-e609-4515-83e6-75e87fb57def")
+		(property "Reference" "#PWR059"
+			(at 62.23 229.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 231.648 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8d45d70-55fd-4fac-afaa-bf21a88c9345")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 223.52 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a7af9b-fefe-4e19-87a2-d4aa91e588e3")
+		(property "Reference" "P22"
+			(at 55.372 223.774 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 51.816 222.25 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 50.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e93132b4-10d5-4db3-9443-915a6e922416")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS86")
 		(at 331.47 38.1 0)
 		(unit 5)
@@ -21720,7 +22464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 331.47 38.1 0)
 			(effects
 				(font
@@ -21825,7 +22569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -21928,7 +22672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 196.85 38.1 0)
 			(effects
 				(font
@@ -22007,6 +22751,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d685738-1e2c-45b4-b4f8-b9ab29a7b0f5")
+		(property "Reference" "#PWR057"
+			(at 62.23 217.17 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 218.948 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baab0804-fc0e-4e09-b58a-7ca4ab241248")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 154.94 38.1 0)
 		(unit 5)
@@ -22033,7 +22843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 154.94 38.1 0)
 			(effects
 				(font
@@ -22113,6 +22923,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 46.99 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a881b8a8-0abb-4e11-9c8d-439efa22d8a5")
+		(property "Reference" "#PWR053"
+			(at 46.99 212.09 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 213.868 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae39ba99-34dc-44f9-9738-63d677f1610e")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 124.46 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22120,7 +22996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2ec54c5-427d-4615-b0e8-eae82ed9d055")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR071"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -22171,7 +23047,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR035")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -22202,7 +23078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -22305,7 +23181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 243.84 38.1 0)
 			(effects
 				(font
@@ -22408,7 +23284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 294.64 38.1 0)
 			(effects
 				(font
@@ -22487,6 +23363,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 229.87 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1330f0b-4702-4c13-99ed-045380deb993")
+		(property "Reference" "P10"
+			(at 70.866 229.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 67.056 228.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 66.04 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0be2cc2-bf91-439d-b96b-e81c710f35ac")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS74")
 		(at 344.17 38.1 0)
 		(unit 3)
@@ -22513,7 +23454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 344.17 38.1 0)
 			(effects
 				(font
@@ -22541,46 +23482,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "d8d9d6b0-bde5-490c-bf0a-6030c492712b")
+			(uuid "d8d9d6b0-bde5-490c-bf0a-6030c492712c")
 		)
 		(pin "13"
-			(uuid "4622eae9-d8a1-45a3-b316-1932322b9ca5")
+			(uuid "4622eae9-d8a1-45a3-b316-1932322b9ca6")
 		)
 		(pin "8"
-			(uuid "a256be7b-f161-4f75-9d4d-97037973da67")
+			(uuid "a256be7b-f161-4f75-9d4d-97037973da68")
 		)
 		(pin "9"
-			(uuid "cb3ffedc-d47e-4319-b02b-5a628618876c")
+			(uuid "cb3ffedc-d47e-4319-b02b-5a628618876d")
 		)
 		(pin "2"
-			(uuid "d429dec6-30d7-4ea2-b429-ef125c08f9cd")
+			(uuid "d429dec6-30d7-4ea2-b429-ef125c08f9ce")
 		)
 		(pin "1"
-			(uuid "536987f7-7817-480f-8ac4-6ac3aa1d57ec")
+			(uuid "536987f7-7817-480f-8ac4-6ac3aa1d57ed")
 		)
 		(pin "3"
-			(uuid "5db009d6-e836-4c99-8dad-113bc60f77b1")
+			(uuid "5db009d6-e836-4c99-8dad-113bc60f77b2")
 		)
 		(pin "4"
-			(uuid "2ee01c6c-27d2-4788-b0fe-37b1dc66d758")
+			(uuid "2ee01c6c-27d2-4788-b0fe-37b1dc66d759")
 		)
 		(pin "10"
-			(uuid "f33a4aa9-a323-4f1f-accb-a4bb61f7eadd")
+			(uuid "f33a4aa9-a323-4f1f-accb-a4bb61f7eade")
 		)
 		(pin "6"
-			(uuid "6e004794-1f62-4478-adc9-ff23d4410ff6")
+			(uuid "6e004794-1f62-4478-adc9-ff23d4410ff7")
 		)
 		(pin "11"
-			(uuid "be76366b-aef1-4b2a-9c0d-02c808f239d9")
+			(uuid "be76366b-aef1-4b2a-9c0d-02c808f239da")
 		)
 		(pin "12"
-			(uuid "32ed04c7-eb8e-41c2-9e10-fdfc8f2ff623")
+			(uuid "32ed04c7-eb8e-41c2-9e10-fdfc8f2ff624")
 		)
 		(pin "7"
-			(uuid "dc31662a-0ff0-4454-9699-2b34b25773f1")
+			(uuid "dc31662a-0ff0-4454-9699-2b34b25773f2")
 		)
 		(pin "14"
-			(uuid "9dfdeace-54fa-4e66-94cd-5272e7771d90")
+			(uuid "9dfdeace-54fa-4e66-94cd-5272e7771d91")
 		)
 		(instances
 			(project ""
@@ -22616,7 +23557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Custom:STD_DDW_DIP14"
 			(at 143.51 38.1 0)
 			(effects
 				(font
@@ -22647,13 +23588,13 @@
 			(uuid "2592f3d2-28a6-4271-a47c-44bafde6054a")
 		)
 		(pin "8"
-			(uuid "61f7b169-3130-40d2-93c5-558a51ddbabc")
+			(uuid "61f7b169-3130-40d2-93c5-558a51ddbabd")
 		)
 		(pin "4"
 			(uuid "e7637829-2f54-4d03-9569-5f22ffc9690c")
 		)
 		(pin "10"
-			(uuid "a7c543c9-675e-43c6-84ec-7779139aa58f")
+			(uuid "a7c543c9-675e-43c6-84ec-7779139aa590")
 		)
 		(pin "7"
 			(uuid "3d8b9c3e-5997-4d83-889a-e5a42ac72035")
@@ -22665,7 +23606,7 @@
 			(uuid "87b98e33-fea3-4de6-8e64-5122b315b988")
 		)
 		(pin "9"
-			(uuid "b2cf219a-a439-4ada-bf3f-5927f91b336c")
+			(uuid "b2cf219a-a439-4ada-bf3f-5927f91b336d")
 		)
 		(pin "2"
 			(uuid "f8636b5e-8862-4a7d-84db-c14578230617")
@@ -22703,7 +23644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f645424d-1400-48f0-bcfb-2314b83bd4d9")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR070"
 			(at 121.92 19.05 0)
 			(effects
 				(font
@@ -22753,7 +23694,73 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
-					(reference "#PWR034")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc53a1f0-fe98-4588-9557-a2ec7cb4a2a0")
+		(property "Reference" "#PWR0207"
+			(at 46.99 217.17 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 218.948 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f1fa4b-2e41-4d6a-9d2d-22f5791bd695")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d2858"
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)

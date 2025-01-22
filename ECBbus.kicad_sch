@@ -9527,7 +9527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004dab03a6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR029"
 			(at 233.68 25.4 0)
 			(effects
 				(font
@@ -9577,7 +9577,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR05")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9592,7 +9592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004dab0eca")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR031"
 			(at 236.22 22.86 0)
 			(effects
 				(font
@@ -9643,7 +9643,7 @@
 		(instances
 			(project "6x0x-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR07")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9659,7 +9659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0492469b-db6c-412e-8591-c1bc5ff45c14")
-		(property "Reference" "J21"
+		(property "Reference" "J1"
 			(at 36.83 166.37 0)
 			(effects
 				(font
@@ -9675,7 +9675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_2x06"
 			(at 35.56 177.8 0)
 			(effects
 				(font
@@ -9741,7 +9741,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J21")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10cbf8ac-c5da-4342-a5aa-cf6b8e1ddd67")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR019"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -9806,7 +9806,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0171")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9821,7 +9821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1248e717-49bb-4d4a-995f-5f909b83a927")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR013"
 			(at 45.72 121.92 0)
 			(effects
 				(font
@@ -9872,7 +9872,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0199")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9888,7 +9888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d2fb38-7236-477c-8b55-2d2a86ca5597")
-		(property "Reference" "J22"
+		(property "Reference" "J3"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -10120,7 +10120,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J22")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10135,7 +10135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15a29b28-5d2d-4a3c-a893-e4fe9d3a27a5")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR09"
 			(at 43.18 124.46 0)
 			(effects
 				(font
@@ -10185,7 +10185,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0197")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10200,7 +10200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2092a3eb-8fa4-4ea4-865e-3b33d00da9e4")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR01"
 			(at 38.1 135.89 0)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0193")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10266,7 +10266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2190b9ab-be2d-49a8-85a0-4e0220976bd0")
-		(property "Reference" "J16"
+		(property "Reference" "J6"
 			(at 176.53 16.51 0)
 			(effects
 				(font
@@ -10498,7 +10498,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J16")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36fc5322-942d-4fe3-af22-4bd23bb0034d")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR010"
 			(at 43.18 198.12 0)
 			(effects
 				(font
@@ -10564,7 +10564,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0198")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f23fef3-f24a-42fc-b91d-39c0a5f8b9e6")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR012"
 			(at 44.45 101.6 0)
 			(effects
 				(font
@@ -10630,7 +10630,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0182")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10645,7 +10645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4223c3d5-e0e5-484a-9c97-2fb96d8cda08")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR03"
 			(at 39.37 39.37 0)
 			(effects
 				(font
@@ -10695,7 +10695,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0177")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10710,7 +10710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f21adfc-22c7-493d-a694-bcdfc81369d4")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR018"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -10760,7 +10760,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0170")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10775,7 +10775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58953e7b-52d1-4c09-a800-4c5ec4e5f8f3")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR05"
 			(at 41.91 140.97 0)
 			(effects
 				(font
@@ -10825,7 +10825,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0195")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10840,7 +10840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5903a877-1eaf-42ec-9b1c-d1446b6a4583")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR017"
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -10890,7 +10890,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0169")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10905,7 +10905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b42d674-b90f-488c-80b5-0a186d2a9c97")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR06"
 			(at 41.91 144.78 0)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0196")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10971,7 +10971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c9366f1-38a1-4dd3-b06e-2bc685612d23")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR038"
 			(at 330.2 99.06 0)
 			(effects
 				(font
@@ -11022,7 +11022,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0190")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6026b965-b9a9-4889-b1ab-7a395a4857dd")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR040"
 			(at 332.74 91.44 0)
 			(effects
 				(font
@@ -11087,7 +11087,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0192")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6075e4bb-961e-48d4-86bf-471e318de128")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR033"
 			(at 325.12 36.83 0)
 			(effects
 				(font
@@ -11152,7 +11152,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0185")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11167,7 +11167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65ebf77c-301e-4510-a3bb-d3027869f0cc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR026"
 			(at 228.6 46.99 0)
 			(effects
 				(font
@@ -11217,7 +11217,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR02")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11232,7 +11232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6724b014-1b4e-48b9-8a87-9b5b27a80634")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR015"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -11283,7 +11283,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0183")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11298,7 +11298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e4b756e-765b-4968-9194-663034ffa123")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -11349,7 +11349,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11364,7 +11364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78e151e3-2211-4109-a43f-41c9b069199a")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR022"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0174")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11430,7 +11430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d3ad720-f599-431e-a639-58df330b3fb2")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR034"
 			(at 325.12 46.99 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0186")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11495,7 +11495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e3f1c3a-0e98-4a6b-9eef-917d1d88eba2")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR04"
 			(at 39.37 49.53 0)
 			(effects
 				(font
@@ -11545,7 +11545,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0178")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11560,7 +11560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f2462c1-47d9-4f0e-b428-054ab354f9d3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR032"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -11610,7 +11610,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR08")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11625,7 +11625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93fac301-abf4-444c-92d6-e62f44304874")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR08"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0180")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11691,7 +11691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9680de43-6cbb-4809-9b94-f0d36a4e36a7")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR023"
 			(at 140.97 24.13 0)
 			(effects
 				(font
@@ -11742,7 +11742,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0175")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11758,7 +11758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f74979-e7b2-416d-951f-722bc5a6b54f")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 271.78 15.24 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 		(instances
 			(project ""
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12006,7 +12006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991751f9-d0b5-4207-a25c-edac4656818c")
-		(property "Reference" "J19"
+		(property "Reference" "J9"
 			(at 323.85 67.31 0)
 			(effects
 				(font
@@ -12022,7 +12022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_2x06"
 			(at 322.58 78.74 0)
 			(effects
 				(font
@@ -12088,7 +12088,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J19")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12104,7 +12104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e98fba0-8904-45d4-a208-9dcfd01ade65")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 227.33 67.31 0)
 			(effects
 				(font
@@ -12120,7 +12120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_2x06"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -12186,7 +12186,7 @@
 		(instances
 			(project ""
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12201,7 +12201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fad216d-c8c9-412d-bc85-3d22aab5f00e")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR020"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -12252,7 +12252,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0172")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12267,7 +12267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fdc702d-6677-4378-9d0a-e01c90523ce1")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR037"
 			(at 330.2 25.4 0)
 			(effects
 				(font
@@ -12317,7 +12317,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0189")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12332,7 +12332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a19e5cab-2d90-440c-b315-7d92a270c737")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR024"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -12382,7 +12382,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0176")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12397,7 +12397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a339f9b6-bb9e-4c4f-8a60-2785693b8e1a")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR036"
 			(at 328.93 45.72 0)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0188")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12463,7 +12463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5152baf-d8ba-4093-9409-4fa7ef6a36f0")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR025"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -12513,7 +12513,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR01")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12528,7 +12528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aad7cb77-8faf-4a42-a9b6-2d2f2bc6da80")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR027"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -12578,7 +12578,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR03")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12593,7 +12593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac657716-5678-4704-9429-75a2936472b2")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR021"
 			(at 138.43 26.67 0)
 			(effects
 				(font
@@ -12643,7 +12643,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0173")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12659,7 +12659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc877cca-1393-41d9-842d-3c7dce0234c2")
-		(property "Reference" "J17"
+		(property "Reference" "J2"
 			(at 38.1 69.85 0)
 			(effects
 				(font
@@ -12675,7 +12675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_2x06"
 			(at 36.83 81.28 0)
 			(effects
 				(font
@@ -12741,7 +12741,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J17")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12757,7 +12757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d86d53-c066-4ec0-92ea-548bdcab53c4")
-		(property "Reference" "J15"
+		(property "Reference" "J5"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -12773,7 +12773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom:STD_DDW_PINHEAD_V_2x06"
 			(at 130.81 80.01 0)
 			(effects
 				(font
@@ -12839,7 +12839,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J15")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12854,7 +12854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd34ddb5-0526-4bc7-bf1b-384239cfa76c")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR035"
 			(at 328.93 41.91 0)
 			(effects
 				(font
@@ -12904,7 +12904,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0187")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12919,7 +12919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0486adf-d891-4e31-af9d-5c1839675707")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR02"
 			(at 38.1 146.05 0)
 			(effects
 				(font
@@ -12969,7 +12969,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0194")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12985,7 +12985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e06f3f-69a9-4cf2-b53a-cd2d02e9c7c1")
-		(property "Reference" "J20"
+		(property "Reference" "J10"
 			(at 368.3 15.24 0)
 			(effects
 				(font
@@ -13217,7 +13217,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J20")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -13232,7 +13232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d302eb8d-906f-411b-8eff-7592d89cf239")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR07"
 			(at 43.18 44.45 0)
 			(effects
 				(font
@@ -13282,7 +13282,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0179")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13298,7 +13298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e554cd-1817-46d9-bee9-5f7b651e7865")
-		(property "Reference" "J18"
+		(property "Reference" "J4"
 			(at 82.55 17.78 0)
 			(effects
 				(font
@@ -13530,7 +13530,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "J18")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13545,7 +13545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0aa136a-a7b4-44ba-9e0b-3b714f213e33")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR011"
 			(at 44.45 27.94 0)
 			(effects
 				(font
@@ -13595,7 +13595,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0181")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13610,7 +13610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e88318-649b-407b-bd1c-447729a9e8b9")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR016"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -13660,7 +13660,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0184")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13675,7 +13675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa8bf004-534e-4c6c-a150-42b1960533c0")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR039"
 			(at 332.74 22.86 0)
 			(effects
 				(font
@@ -13726,7 +13726,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0191")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13741,7 +13741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1ac05e-20eb-457c-b80c-0a196792bc76")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR014"
 			(at 45.72 190.5 0)
 			(effects
 				(font
@@ -13791,7 +13791,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR0200")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13806,7 +13806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1d7bfb-089e-4145-8cb6-fe81bb71aafe")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR028"
 			(at 232.41 45.72 0)
 			(effects
 				(font
@@ -13857,7 +13857,7 @@
 		(instances
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8cc7"
-					(reference "#PWR04")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

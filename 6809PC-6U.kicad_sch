@@ -12,19 +12,6 @@
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
 	(lib_symbols)
-	(text "Better IO Decoding"
-		(exclude_from_sim no)
-		(at 34.036 121.412 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebdb5c59-ab7b-4d46-8d40-f0c55d562a9f")
-	)
 	(sheet
 		(at 30.48 29.21)
 		(size 25.4 15.24)

@@ -8,13 +8,13 @@
   (resolution um 10)
   (unit um)
   (structure
-    (layer Front
+    (layer F.Cu
       (type signal)
       (property
         (index 0)
       )
     )
-    (layer Back
+    (layer B.Cu
       (type signal)
       (property
         (index 1)
@@ -24,12 +24,28 @@
       (path pcb 0  313080 -299872  69080.4 -299872  69080.4 -55872.4  313080 -55872.4
             313080 -299872)
     )
-    (via "Via[0-1]_889:558.8_um")
+    (keepout "" (polygon F.Cu 0  69080.4 -55872.4  69080.4 -299872  69443.6 -299872  69367.4 -55880
+            69080.4 -55872.4))
+    (keepout "" (polygon B.Cu 0  69080.4 -55872.4  69080.4 -299872  69443.6 -299872  69367.4 -55880
+            69080.4 -55872.4))
+    (keepout "" (polygon F.Cu 0  69080.4 -299872  69088 -299339  313080 -299364  313080 -299872
+            69080.4 -299872))
+    (keepout "" (polygon B.Cu 0  69080.4 -299872  69088 -299339  313080 -299364  313080 -299872
+            69080.4 -299872))
+    (keepout "" (polygon F.Cu 0  313080 -299872  312572 -299872  312699 -55880  313080 -55872.4
+            313080 -299872))
+    (keepout "" (polygon B.Cu 0  313080 -299872  312572 -299872  312699 -55880  313080 -55872.4
+            313080 -299872))
+    (keepout "" (polygon F.Cu 0  313080 -55872.4  313080 -56134  69138.8 -56261  69080.4 -55872.4
+            313080 -55872.4))
+    (keepout "" (polygon B.Cu 0  313080 -55872.4  313080 -56134  69138.8 -56261  69080.4 -55872.4
+            313080 -55872.4))
+    (via "Via[0-1]_800:400_um")
     (rule
-      (width 203.2)
-      (clearance 203.2)
-      (clearance 203.2 (type default_smd))
-      (clearance 50.8 (type smd_smd))
+      (width 250)
+      (clearance 200)
+      (clearance 200 (type default_smd))
+      (clearance 50 (type smd_smd))
     )
   )
   (placement
@@ -115,62 +131,61 @@
       (place U48 293627.800000 -264144.400000 front 0.000000 (PN G65SC51P))
     )
     (component Custom:STD_DDW_DIP28_SKINNY
-      (place U40 128066.569000 -208158.400000 front 0.000000 (PN "SRAM-32K"))
+      (place U40 128066.600000 -208158.400000 front 0.000000 (PN "SRAM-32K"))
     )
     (component Custom:STD_DDW_DIP20
-      (place U38 145031.492000 -203144.400000 front 0.000000 (PN 74LS374))
+      (place U38 145031.500000 -203144.400000 front 0.000000 (PN 74LS374))
       (place U46 186790.800000 -237942.400000 front 0.000000 (PN 74LS244))
       (place U31 231494.800000 -237180.400000 front 0.000000 (PN 74LS240))
       (place U39 103351.800000 -271724.400000 front 0.000000 (PN 74LS244))
-      (place U28 220552.138000 -147772.400000 front 0.000000 (PN 74LS245))
-      (place U3 206546.692000 -147772.400000 front 0.000000 (PN 74LS682))
+      (place U28 220552.100000 -147772.400000 front 0.000000 (PN 74LS245))
+      (place U3 206546.700000 -147772.400000 front 0.000000 (PN 74LS682))
       (place U36 231367.800000 -269311.400000 front 0.000000 (PN 74LS244))
-      (place U34 234557.584000 -147772.400000 front 0.000000 (PN 74LS244))
+      (place U34 234557.600000 -147772.400000 front 0.000000 (PN 74LS244))
       (place U41 103351.800000 -240990.400000 front 0.000000 (PN 74LS245))
-      (place U45 178535.800000 -147772.400000 front 0.000000 (PN 74LS244))
-      (place U26 192541.246000 -147772.400000 front 0.000000 (PN 74LS245))
-      (place U2 248563.030000 -147772.400000 front 0.000000 (PN 74LS244))
-      (place U25 192541.246000 -114625.400000 front 0.000000 (PN 74LS245))
-      (place U27 248563.030000 -114625.400000 front 0.000000 (PN 74LS245))
+      (place U26 192541.200000 -147772.400000 front 0.000000 (PN 74LS245))
+      (place U2 248563.000000 -147772.400000 front 0.000000 (PN 74LS244))
+      (place U25 192541.200000 -114625.400000 front 0.000000 (PN 74LS245))
+      (place U27 248563.000000 -114625.400000 front 0.000000 (PN 74LS245))
       (place U32 186790.800000 -269565.400000 front 0.000000 (PN 74LS245))
       (place U23 178535.800000 -114529.400000 front 0.000000 (PN 74LS688))
-      (place U56 234557.584000 -114371.400000 front 0.000000 (PN 74LS244))
+      (place U56 234557.600000 -114371.400000 front 0.000000 (PN 74LS244))
     )
     (component Custom:STD_DDW_DIP16
       (place U30 146652.800000 -240289.400000 front 0.000000 (PN 74LS163))
       (place U49 276325.800000 -240182.200000 front 0.000000 (PN MAX232))
-      (place U42 127818.569000 -175869.400000 front 0.000000 (PN 74LS138))
-      (place U44 162498.415000 -200634.400000 front 0.000000 (PN 74LS257))
-      (place U37 110605.646000 -175869.400000 front 0.000000 (PN 74LS157))
+      (place U42 127818.600000 -175869.400000 front 0.000000 (PN 74LS138))
+      (place U44 162498.400000 -200634.400000 front 0.000000 (PN 74LS257))
+      (place U37 110605.600000 -175869.400000 front 0.000000 (PN 74LS157))
       (place U43 76179.800000 -175869.400000 front 0.000000 (PN 74LS257))
-      (place U35 93392.723000 -175869.400000 front 0.000000 (PN 74LS174))
-      (place U24 206546.692000 -115925.400000 front 0.000000 (PN 74LS138))
-      (place U51 282988.876000 -200634.400000 front 0.000000 (PN 74HC165))
-      (place U53 248563.030000 -200634.400000 front 0.000000 (PN 74HC165))
+      (place U35 93392.700000 -175869.400000 front 0.000000 (PN 74LS174))
+      (place U24 206546.700000 -115925.400000 front 0.000000 (PN 74LS138))
+      (place U51 282988.900000 -200634.400000 front 0.000000 (PN 74HC165))
+      (place U53 248563.000000 -200634.400000 front 0.000000 (PN 74HC165))
       (place U50 300201.800000 -200634.400000 front 0.000000 (PN 74HC595))
-      (place U52 265775.953000 -200634.400000 front 0.000000 (PN 74HC595))
+      (place U52 265776.000000 -200634.400000 front 0.000000 (PN 74HC595))
     )
     (component Custom:STD_DDW_DIP14
       (place P17 276954.800000 -272852.200000 front 0.000000 (PN "1.8432 MHz CLK"))
       (place P14 146785.800000 -273395.400000 front 0.000000 (PN 16.000Mhz))
-      (place U7 220552.138000 -118074.400000 front 0.000000 (PN 74LS32))
-      (place U4 162244.415000 -174589.400000 front 0.000000 (PN 74LS86))
-      (place U6 231096.107000 -174589.400000 front 0.000000 (PN 74LS00))
-      (place U5 145031.492000 -174589.400000 front 0.000000 (PN 74LS02))
+      (place U7 220552.100000 -118074.400000 front 0.000000 (PN 74LS32))
+      (place U4 162244.400000 -174589.400000 front 0.000000 (PN 74LS86))
+      (place U6 231096.100000 -174589.400000 front 0.000000 (PN 74LS00))
+      (place U5 145031.500000 -174589.400000 front 0.000000 (PN 74LS02))
       (place P13 76433.800000 -199354.400000 front 0.000000 (PN "14.31818 MHz CLK"))
-      (place U11 179457.338000 -174589.400000 front 0.000000 (PN 74LS32))
+      (place U11 179457.300000 -174589.400000 front 0.000000 (PN 74LS32))
       (place U10 289279.800000 -232374.400000 front 0.000000 (PN 74LS32))
-      (place U13 110859.646000 -199354.400000 front 0.000000 (PN 74LS07))
-      (place U17 196670.261000 -174589.400000 front 0.000000 (PN 74LS14))
-      (place U16 213883.184000 -174589.400000 front 0.000000 (PN 74LS32))
-      (place U15 265521.953000 -174589.400000 front 0.000000 (PN 74LS08))
-      (place U22 231350.107000 -199354.400000 front 0.000000 (PN 74LS74))
-      (place U1 282734.876000 -174589.400000 front 0.000000 (PN 74LS04))
-      (place U18 179711.338000 -199354.400000 front 0.000000 (PN 74LS06))
-      (place U12 93646.723000 -199354.400000 front 0.000000 (PN 74LS32))
-      (place U21 214137.184000 -199354.400000 front 0.000000 (PN 74LS00))
-      (place U14 248309.030000 -174589.400000 front 0.000000 (PN 74LS07))
-      (place U20 196924.261000 -199354.400000 front 0.000000 (PN 74LS04))
+      (place U13 110859.600000 -199354.400000 front 0.000000 (PN 74LS07))
+      (place U17 196670.300000 -174589.400000 front 0.000000 (PN 74LS14))
+      (place U16 213883.200000 -174589.400000 front 0.000000 (PN 74LS32))
+      (place U15 265522.000000 -174589.400000 front 0.000000 (PN 74LS08))
+      (place U22 231350.100000 -199354.400000 front 0.000000 (PN 74LS74))
+      (place U1 282734.900000 -174589.400000 front 0.000000 (PN 74LS04))
+      (place U18 179711.300000 -199354.400000 front 0.000000 (PN 74LS06))
+      (place U12 93646.700000 -199354.400000 front 0.000000 (PN 74LS32))
+      (place U21 214137.200000 -199354.400000 front 0.000000 (PN 74LS00))
+      (place U14 248309.000000 -174589.400000 front 0.000000 (PN 74LS07))
+      (place U20 196924.300000 -199354.400000 front 0.000000 (PN 74LS04))
     )
     (component Custom:STD_DDW_DIP14::1
       (place U19 125656.800000 -291718.400000 front 90.000000 (PN 74HCT14))
@@ -269,11 +284,14 @@
       (place P8 149040.400000 -221312.400000 front 0.000000 (PN CONN_1))
     )
     (component Custom:ATXConnector
-      (place P11 184056.840000 -293103.620000 front 180.000000 (PN CONN_10X2))
+      (place P11 184056.800000 -293103.600000 front 180.000000 (PN CONN_10X2))
     )
     (component Custom:STD_DDW_CAP::2
       (place C14 155137.800000 -244907.400000 front 90.000000 (PN "0.1 uF"))
       (place C67 248735.400000 -77780.200000 front 90.000000 (PN 0.1µF))
+    )
+    (component Custom:STD_DDW_DIP20::1
+      (place U45 178535.800000 -147772.400000 front 0.000000 (PN 74LS244))
     )
     (component Custom:STD_DDW_DIP18
       (place U47 300201.800000 -177099.400000 front 0.000000 (PN ~))
@@ -312,8 +330,8 @@
       (place U54 284790.300000 -106476.400000 front 90.000000 (PN ESP32_MODULE))
     )
     (component Custom:PS2_DIN
-      (place J16 275286.020000 -64706.820000 front 0.000000 (PN Keyboard))
-      (place J17 294082.020000 -64671.260000 front 0.000000 (PN Mouse))
+      (place J16 275286.000000 -64706.800000 front 0.000000 (PN Keyboard))
+      (place J17 294082.000000 -64671.300000 front 0.000000 (PN Mouse))
     )
     (component Custom:STD_DDW_PINHEAD_V_1x02::1
       (place J22 258775.000000 -93811.000000 front 90.000000 (PN "TTL SER 1 PWR"))
@@ -1437,6 +1455,61 @@
       (pin Round[A]Pad_1600_um 1 -2494 -24)
       (pin Round[A]Pad_1600_um 2 2506 -24)
     )
+    (image Custom:STD_DDW_DIP20::1
+      (outline (path signal 100  5074 -12694  5074 12826))
+      (outline (path signal 100  5074 12826  -5086 12826))
+      (outline (path signal 100  3169 -12634  -3181 -12634))
+      (outline (path signal 100  3169 12766  3169 -12634))
+      (outline (path signal 100  -2181 12766  3169 12766))
+      (outline (path signal 100  -3181 -12634  -3181 11766))
+      (outline (path signal 100  -3181 11766  -2181 12766))
+      (outline (path signal 100  -5086 -12694  5074 -12694))
+      (outline (path signal 100  -5086 12826  -5086 -12694))
+      (outline (path signal 50  5334 -12954  5334 13096))
+      (outline (path signal 50  5334 13096  -5366 13096))
+      (outline (path signal 50  -5366 -12954  5334 -12954))
+      (outline (path signal 50  -5366 13096  -5366 -12954))
+      (outline (path signal 0  1036.43 12868.4  1054 12826  1035.95 12631.2  982.421 12443.1
+            895.23 12268  777.349 12111.9  632.793 11980.1  466.483 11877.1
+            284.083 11806.5  91.804 11770.5  -103.804 11770.5  -296.083 11806.5
+            -478.483 11877.1  -644.793 11980.1  -789.349 12111.9  -907.23 12268
+            -994.421 12443.1  -1047.95 12631.2  -1066 12826  -1048.43 12868.4
+            -1006 12886  -963.574 12868.4  -946 12826  -927.938 12642.6
+            -874.447 12466.3  -787.581 12303.8  -670.68 12161.3  -528.236 12044.4
+            -365.722 11957.6  -189.385 11904.1  -6 11886  177.385 11904.1
+            353.722 11957.6  516.236 12044.4  658.68 12161.3  775.581 12303.8
+            862.447 12466.3  915.938 12642.6  934 12826  951.574 12868.4
+            994 12886))
+      (outline (path signal 120  5244 -12754  5244 12886))
+      (outline (path signal 120  5244 12886  -5256 12886))
+      (outline (path signal 120  2244 -12694  2244 12826))
+      (outline (path signal 120  2244 12826  994 12826))
+      (outline (path signal 120  -1006 12826  -2256 12826))
+      (outline (path signal 120  -2256 -12694  2244 -12694))
+      (outline (path signal 120  -2256 12826  -2256 -12694))
+      (outline (path signal 120  -5256 -12754  5244 -12754))
+      (outline (path signal 120  -5256 12886  -5256 -12754))
+      (pin Oval[A]Pad_2400x1600_um 20 3804 11496)
+      (pin Oval[A]Pad_2400x1600_um 19 3804 8956)
+      (pin Oval[A]Pad_2400x1600_um 18 3804 6416)
+      (pin Oval[A]Pad_2400x1600_um 17 3804 3876)
+      (pin Oval[A]Pad_2400x1600_um 16 3804 1336)
+      (pin Oval[A]Pad_2400x1600_um 15 3804 -1204)
+      (pin Oval[A]Pad_2400x1600_um 14 3804 -3744)
+      (pin Oval[A]Pad_2400x1600_um 13 3804 -6284)
+      (pin Oval[A]Pad_2400x1600_um 12 3804 -8824)
+      (pin Oval[A]Pad_2400x1600_um 11 3804 -11364)
+      (pin Oval[A]Pad_2400x1600_um 10 -3816 -11364)
+      (pin Oval[A]Pad_2400x1600_um 9 -3816 -8824)
+      (pin Oval[A]Pad_2400x1600_um 8 -3816 -6284)
+      (pin Oval[A]Pad_2400x1600_um 7 -3816 -3744)
+      (pin Oval[A]Pad_2400x1600_um 6 -3816 -1204)
+      (pin Oval[A]Pad_2400x1600_um 5 -3816 1336)
+      (pin Oval[A]Pad_2400x1600_um 4 -3816 3876)
+      (pin Oval[A]Pad_2400x1600_um 3 -3816 6416)
+      (pin Oval[A]Pad_2400x1600_um 2 -3816 8956)
+      (pin Rect[A]Pad_2400x1600_um 1 -3816 11496)
+    )
     (image Custom:STD_DDW_DIP18
       (outline (path signal 120  -5510 11606  -5510 -11494))
       (outline (path signal 120  -5510 -11494  4990 -11494))
@@ -2005,81 +2078,81 @@
       (pin Oval[A]Pad_1600x1600_um 9 10462 -128)
     )
     (padstack Round[B]Pad_6400_um
-      (shape (circle Back 6400))
+      (shape (circle B.Cu 6400))
       (attach off)
     )
     (padstack Round[A]Pad_1000_um
-      (shape (circle Front 1000))
-      (shape (circle Back 1000))
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
       (attach off)
     )
     (padstack Round[A]Pad_1422.4_um
-      (shape (circle Front 1422.4))
-      (shape (circle Back 1422.4))
+      (shape (circle F.Cu 1422.4))
+      (shape (circle B.Cu 1422.4))
       (attach off)
     )
     (padstack Round[A]Pad_1524_um
-      (shape (circle Front 1524))
-      (shape (circle Back 1524))
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
       (attach off)
     )
     (padstack Round[A]Pad_1600_um
-      (shape (circle Front 1600))
-      (shape (circle Back 1600))
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
       (attach off)
     )
     (padstack Round[A]Pad_1700_um
-      (shape (circle Front 1700))
-      (shape (circle Back 1700))
+      (shape (circle F.Cu 1700))
+      (shape (circle B.Cu 1700))
       (attach off)
     )
     (padstack Round[A]Pad_3497.58_um
-      (shape (circle Front 3497.58))
-      (shape (circle Back 3497.58))
+      (shape (circle F.Cu 3497.58))
+      (shape (circle B.Cu 3497.58))
       (attach off)
     )
     (padstack Round[A]Pad_3600_um
-      (shape (circle Front 3600))
-      (shape (circle Back 3600))
+      (shape (circle F.Cu 3600))
+      (shape (circle B.Cu 3600))
       (attach off)
     )
     (padstack Round[A]Pad_4000_um
-      (shape (circle Front 4000))
-      (shape (circle Back 4000))
+      (shape (circle F.Cu 4000))
+      (shape (circle B.Cu 4000))
       (attach off)
     )
     (padstack Round[T]Pad_6400_um
-      (shape (circle Front 6400))
+      (shape (circle F.Cu 6400))
       (attach off)
     )
     (padstack Oval[A]Pad_2400x1600_um
-      (shape (path Front 1600  -400 0  400 0))
-      (shape (path Back 1600  -400 0  400 0))
+      (shape (path F.Cu 1600  -400 0  400 0))
+      (shape (path B.Cu 1600  -400 0  400 0))
       (attach off)
     )
     (padstack Oval[A]Pad_1600x1600_um
-      (shape (path Front 1600  0 0  0 0))
-      (shape (path Back 1600  0 0  0 0))
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
       (attach off)
     )
     (padstack Oval[A]Pad_1700x1700_um
-      (shape (path Front 1700  0 0  0 0))
-      (shape (path Back 1700  0 0  0 0))
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
       (attach off)
     )
     (padstack Oval[A]Pad_2200x2200_um
-      (shape (path Front 2200  0 0  0 0))
-      (shape (path Back 2200  0 0  0 0))
+      (shape (path F.Cu 2200  0 0  0 0))
+      (shape (path B.Cu 2200  0 0  0 0))
       (attach off)
     )
     (padstack RoundRect[A][0,400]Pad_1100x1800_276.046_um_0.000000_0
-      (shape (polygon Front 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19  -380.638 1280.03
+      (shape (polygon F.Cu 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19  -380.638 1280.03
             -275 1301.05  275 1301.05  380.638 1280.03  470.194 1220.19
             530.033 1130.64  551.046 1025  551.046 -225  530.033 -330.638
             470.194 -420.194  380.638 -480.033  275 -501.046  -275 -501.046
             -380.638 -480.033  -470.194 -420.194  -530.033 -330.638  -551.046 -225
             -551.046 1025))
-      (shape (polygon Back 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19  -380.638 1280.03
+      (shape (polygon B.Cu 0  -551.046 1025  -530.033 1130.64  -470.194 1220.19  -380.638 1280.03
             -275 1301.05  275 1301.05  380.638 1280.03  470.194 1220.19
             530.033 1130.64  551.046 1025  551.046 -225  530.033 -330.638
             470.194 -420.194  380.638 -480.033  275 -501.046  -275 -501.046
@@ -2088,13 +2161,13 @@
       (attach off)
     )
     (padstack "RoundRect[A][0,-400]Pad_1100x1800_276.046_um_0.000000_0"
-      (shape (polygon Front 0  -551.046 225  -530.033 330.638  -470.194 420.194  -380.638 480.033
+      (shape (polygon F.Cu 0  -551.046 225  -530.033 330.638  -470.194 420.194  -380.638 480.033
             -275 501.046  275 501.046  380.638 480.033  470.194 420.194
             530.033 330.638  551.046 225  551.046 -1025  530.033 -1130.64
             470.194 -1220.19  380.638 -1280.03  275 -1301.05  -275 -1301.05
             -380.638 -1280.03  -470.194 -1220.19  -530.033 -1130.64  -551.046 -1025
             -551.046 225))
-      (shape (polygon Back 0  -551.046 225  -530.033 330.638  -470.194 420.194  -380.638 480.033
+      (shape (polygon B.Cu 0  -551.046 225  -530.033 330.638  -470.194 420.194  -380.638 480.033
             -275 501.046  275 501.046  380.638 480.033  470.194 420.194
             530.033 330.638  551.046 225  551.046 -1025  530.033 -1130.64
             470.194 -1220.19  380.638 -1280.03  275 -1301.05  -275 -1301.05
@@ -2103,54 +2176,54 @@
       (attach off)
     )
     (padstack Rect[A]Pad_2125.98x2125.98_um
-      (shape (rect Front -1062.99 -1062.99 1062.99 1062.99))
-      (shape (rect Back -1062.99 -1062.99 1062.99 1062.99))
+      (shape (rect F.Cu -1062.99 -1062.99 1062.99 1062.99))
+      (shape (rect B.Cu -1062.99 -1062.99 1062.99 1062.99))
       (attach off)
     )
     (padstack Rect[A]Pad_2200x2200_um
-      (shape (rect Front -1100 -1100 1100 1100))
-      (shape (rect Back -1100 -1100 1100 1100))
+      (shape (rect F.Cu -1100 -1100 1100 1100))
+      (shape (rect B.Cu -1100 -1100 1100 1100))
       (attach off)
     )
     (padstack Rect[A]Pad_2400x1600_um
-      (shape (rect Front -1200 -800 1200 800))
-      (shape (rect Back -1200 -800 1200 800))
+      (shape (rect F.Cu -1200 -800 1200 800))
+      (shape (rect B.Cu -1200 -800 1200 800))
       (attach off)
     )
     (padstack "Rect[A][0,-400]Pad_1100x1800_um"
-      (shape (rect Front -550 -1300 550 500))
-      (shape (rect Back -550 -1300 550 500))
+      (shape (rect F.Cu -550 -1300 550 500))
+      (shape (rect B.Cu -550 -1300 550 500))
       (attach off)
     )
     (padstack Rect[A]Pad_1600x1600_um
-      (shape (rect Front -800 -800 800 800))
-      (shape (rect Back -800 -800 800 800))
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
       (attach off)
     )
     (padstack Rect[A]Pad_1700x1700_um
-      (shape (rect Front -850 -850 850 850))
-      (shape (rect Back -850 -850 850 850))
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
       (attach off)
     )
-    (padstack "Via[0-1]_889:558.8_um"
-      (shape (circle Front 889))
-      (shape (circle Back 889))
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
       (attach off)
     )
   )
   (network
-    (net VCC
+    (net +5V
       (pins K3-3 RR1-1 RR2-1 R7-1 R4-1 U57-20 U57-24 U58-20 U58-24 U33-7 U9-32 U8-32
         U48-15 U40-1 U40-2 U40-21 U40-23 U40-26 U40-28 U38-20 U46-20 U31-20 U39-20
         U28-20 U3-12 U3-14 U3-16 U3-20 U36-20 U34-20 U41-20 U30-1 U30-3 U30-4 U30-5
-        U30-6 U30-7 U30-9 U30-10 U30-16 U49-16 U42-8 P17-14 U19-14 P14-14 U7-14 C29-1
+        U30-6 U30-7 U30-9 U30-10 U30-16 U49-16 U42-16 P17-14 U19-14 P14-14 U7-14 C29-1
         C46-1 C44-1 C42-1 C39-1 C36-1 C32-1 C25-1 C48-1 C50-1 C52-1 C54-1 C62-1 C58-1
         C23-1 C27-1 C19-1 C31-1 C34-1 C38-1 C15-1 C11-1 C7-1 C5-1 C9-1 C13-1 C17-1
         C21-1 C2-1 C3-1 C4-1 C1-1 C64-1 C66-2 P11-7 P11-11 P11-18 P11-20 C37-1 C6-1
         C10-1 C14-1 C18-1 C22-1 C26-1 C30-1 C33-1 C55-1 C40-1 C43-1 C45-1 C47-1 C49-1
         C51-1 C53-1 U45-20 U26-20 U2-11 U2-13 U2-15 U2-20 U25-20 U27-20 U4-14 U6-14
         U5-14 U44-16 U37-16 U43-16 U35-16 C41-1 U32-20 J10-3 J10-29 P13-14 D3-2 J12-1
-        P19-1 U11-14 J13-5 J13-6 J8-3 J8-29 J15-6 U10-14 U24-6 U24-8 J4-3 J4-29 U13-14
+        P19-1 U11-14 J13-5 J13-6 J8-3 J8-29 J15-6 U10-14 U24-6 U24-16 J4-3 J4-29 U13-14
         U17-14 U51-16 J16-4 U16-14 J17-4 J22-1 U53-16 U23-3 U23-4 U23-5 U23-7 U23-9
         U23-12 U23-14 U23-16 U23-17 U23-18 U23-20 U15-14 R24-1 U22-10 U22-14 U50-16
         U29-3 J20-1 U1-14 U52-16 J6-3 J6-29 C56-1 U18-14 U12-14 U56-20 J3-3 J3-29
@@ -2560,19 +2633,19 @@
       (pins SW1-1 SW1-1@1 SW2-1 SW2-1@1 P16-2 P16-3 P16-4 K3-1 P12-1 JP1-2 R6-1 P18-9
         P1-1 P1-3 P1-5 P1-7 P20-26 U57-1 U58-1 U33-1 U9-16 U8-16 U48-1 U40-14 U40-20
         U38-10 U46-10 U31-1 U31-10 U39-10 U28-10 U28-19 U3-10 U3-17 U3-18 U36-10 U34-10
-        U34-19 U41-10 U30-8 U49-15 U42-16 P17-4 P17-5 P17-6 P17-7 U19-7 P14-4 P14-5
+        U34-19 U41-10 U30-8 U49-15 U42-8 P17-4 P17-5 P17-6 P17-7 U19-7 P14-4 P14-5
         P14-6 P14-7 U7-7 C29-2 C46-2 C44-2 C42-2 C39-2 C36-2 C32-2 C25-2 C48-2 C50-2
         C52-2 C54-2 C62-2 C58-2 C24-2 C23-2 C27-2 C19-2 C31-2 C34-2 C38-2 C15-2 C11-2
         C7-2 C20-2 C16-2 C12-2 C8-2 C5-2 C9-2 C13-2 C17-2 C21-2 C65-1 C35-2 C2-2 C3-2
         C28-2 C4-2 C1-2 C64-2 P6-1 P6-1@1 P6-1@2 P5-1 P5-1@1 P5-1@2 P3-1 P3-1@1 P3-1@2
         P2-1 P2-1@1 P2-1@2 P7-1 P7-1@1 P7-1@2 P11-5 P11-6 P11-9 P11-10 P11-12 P11-13
         P11-14 C37-2 C6-2 C10-2 C14-2 C18-2 C22-2 C26-2 C30-2 C33-2 C55-2 C40-2 C43-2
-        C45-2 C47-2 C49-2 C51-2 C53-2 U45-1 U45-10 U26-10 U26-19 U2-10 U2-17 U25-10
+        C45-2 C47-2 C49-2 C51-2 C53-2 U45-10 U45-1 U26-10 U26-19 U2-10 U2-17 U25-10
         U25-19 U27-10 U27-19 U4-7 U6-7 U5-7 U44-8 U37-8 U37-15 U43-8 U35-8 R5-1 C41-2
         JP2-1 JP5-1 P21-1 P21-1@1 P21-1@2 U47-9 U32-10 J10-1 J10-10 J10-31 P13-4 P13-5
         P13-6 P13-7 P23-1 P23-1@1 P23-1@2 P19-15 U11-7 J13-1 J13-3 J13-8 J13-10 P10-1
         P10-1@1 P10-1@2 J8-1 J8-10 J8-31 P9-1 P9-1@1 P9-1@2 J15-7 P4-1 P4-1@1 P4-1@2
-        U10-7 U24-16 U55-14 U55-17 J4-1 J4-10 J4-31 U13-7 P22-1 P22-1@1 P22-1@2 U17-7
+        U10-7 U24-8 U55-14 U55-17 J4-1 J4-10 J4-31 U13-7 P22-1 P22-1@1 P22-1@2 U17-7
         U51-8 U51-15 J18-2 J16-3 C67-2 U16-7 J17-3 JP4-1 U53-8 U53-15 U23-10 J11-1
         U15-7 U22-7 U50-8 R23-2 J19-1 U29-1 U1-7 U52-8 J14-0 J14-0@1 J14-5 J14-6 J14-7
         J14-8 J14-10 C57-2 J6-1 J6-10 J6-31 C56-2 U18-7 U54-14 U54-17 U12-7 U56-10
@@ -3335,8 +3408,8 @@
     (net "unconnected-(J3-AEN-Pad42)"
       (pins J3-42)
     )
-    (net "unconnected-(J3-TC-Pad27)"
-      (pins J3-27)
+    (net TC
+      (pins U42-9 J10-27 J8-27 J4-27 J6-27 J3-27)
     )
     (net "unconnected-(J3-UNUSED-Pad8)"
       (pins J3-8)
@@ -3349,9 +3422,6 @@
     )
     (net "unconnected-(J3-~{DACK0}-Pad19)"
       (pins J3-19)
-    )
-    (net "unconnected-(J4-TC-Pad27)"
-      (pins J4-27)
     )
     (net "unconnected-(J4-~{DACK2}-Pad26)"
       (pins J4-26)
@@ -3410,9 +3480,6 @@
     (net "unconnected-(J6-IO_READY-Pad41)"
       (pins J6-41)
     )
-    (net "unconnected-(J6-TC-Pad27)"
-      (pins J6-27)
-    )
     (net "unconnected-(J6-DRQ1-Pad18)"
       (pins J6-18)
     )
@@ -3442,9 +3509,6 @@
     )
     (net "Net-(J7-Pin_2)"
       (pins J8-21 J7-2)
-    )
-    (net "unconnected-(J8-TC-Pad27)"
-      (pins J8-27)
     )
     (net "unconnected-(J8-~{DACK0}-Pad19)"
       (pins J8-19)
@@ -3499,9 +3563,6 @@
     )
     (net "unconnected-(J10-DRQ2-Pad6)"
       (pins J10-6)
-    )
-    (net "unconnected-(J10-TC-Pad27)"
-      (pins J10-27)
     )
     (net "unconnected-(J10-~{DACK3}-Pad15)"
       (pins J10-15)
@@ -3815,9 +3876,6 @@
     (net "Net-(U40-Q5)"
       (pins U40-17 U41-7 U44-6)
     )
-    (net "unconnected-(U42-O6-Pad9)"
-      (pins U42-9)
-    )
     (net "unconnected-(U42-O3-Pad12)"
       (pins U42-12)
     )
@@ -3899,8 +3957,8 @@
     (net "unconnected-(U55-GPIO14-Pad11)"
       (pins U55-11)
     )
-    (class kicad_default "" /ACIA/ACIA_CLK /ACIA/CTS /ACIA/CTS_TTL /ACIA/DCD
-      /ACIA/DSR /ACIA/DTR /ACIA/RTS /ACIA/RTS_TTL /ACIA/RXD /ACIA/RXD_TTL
+    (class kicad_default "" +3V3 +5V -5V /ACIA/ACIA_CLK /ACIA/CTS /ACIA/CTS_TTL
+      /ACIA/DCD /ACIA/DSR /ACIA/DTR /ACIA/RTS /ACIA/RTS_TTL /ACIA/RXD /ACIA/RXD_TTL
       /ACIA/TXD /ACIA/TXD_TTL "/CPU 6809/1MHZ" "/CPU 6809/2MHZ" "/CPU 6809/4MHZ"
       "/CPU 6809/8MHZ" "/CPU 6809/{slash}INTA" "/MMU four/MMU-ENABLE" "/MMU four/{slash}MMU-ENB-WR"
       "/MMU four/{slash}MMU-MAP-RD" "/MMU four/{slash}MMU-MAP-WR" "/MMU four/{slash}MMU-TASK-RD"
@@ -3910,48 +3968,48 @@
       /VIAS/PA1 /VIAS/PA2 /VIAS/PA3 /VIAS/PA4 /VIAS/PA5 /VIAS/PA6 /VIAS/PA7
       /VIAS/PB0 /VIAS/PB1 /VIAS/PB2 /VIAS/PB3 /VIAS/PB4 /VIAS/PB5 /VIAS/PB6
       /VIAS/PB7 /VIAS/PC0 /VIAS/PC1 /VIAS/PC2 /VIAS/PC3 /VIAS/PC4 /VIAS/PC5
-      /VIAS/PC6 /VIAS/PC7 5VSB AUDIO BUSAK BUSALE BUSCLK B_A0 B_A1 B_A10 B_A11
-      B_A12 B_A13 B_A14 B_A15 B_A16 B_A17 B_A18 B_A19 B_A2 B_A3 B_A4 B_A5
-      B_A6 B_A7 B_A8 B_A9 B_D0 B_D1 B_D2 B_D3 B_D4 B_D5 B_D6 B_D7 B_INT B_UUU
-      "B_{slash}CLK" "B_{slash}INT" "B_{slash}IORQ" "B_{slash}MREQ" "B_{slash}NMI"
-      "B_{slash}RD" "B_{slash}WR" CD1 CD2 CLK CPU_BA CPU_BS CPU_D0 CPU_D1
-      CPU_D2 CPU_D3 CPU_D4 CPU_D5 CPU_D6 CPU_D7 CPU_E CPU_Q "CPU_R{slash}W"
-      "CPU_{slash}RD" "CPU_{slash}WR" E ESP0_BUSY ESP0_IN ESP0_INCLK ESP0_OUT
-      ESP0_OUTCLK ESP0_RDYO ESP0_SEL ESP0_SPAREO ESP1_BUSY ESP1_IN ESP1_INCLK
-      ESP1_OUT ESP1_OUTCLK ESP1_RDYO ESP1_SEL ESPSTAT_SEL IOR IOW KBDCLK KBDDAT
-      LA0 LA1 LA10 LA11 LA12 LA13 LA14 LA15 LA2 LA3 LA4 LA5 LA6 LA7 LA8 LA9
-      MRDY MSECLK MSEDAT "Net-(C67-Pad1)" "Net-(D1-A)" "Net-(D2-A)" "Net-(D3-K)"
-      "Net-(D4-A)" "Net-(D5-K)" "Net-(D6-K)" "Net-(J1-Pin_10)" "Net-(J1-Pin_2)"
-      "Net-(J1-Pin_4)" "Net-(J1-Pin_6)" "Net-(J1-Pin_8)" "Net-(J10-IRQ3)"
-      "Net-(J10-IRQ4)" "Net-(J10-IRQ5)" "Net-(J10-IRQ6)" "Net-(J10-IRQ7)"
-      "Net-(J11-Pin_3)" "Net-(J13-Pin_2)" "Net-(J13-Pin_4)" "Net-(J13-Pin_7)"
-      "Net-(J13-Pin_9)" "Net-(J15-Pin_3)" "Net-(J15-Pin_4)" "Net-(J15-Pin_5)"
-      "Net-(J18-Pin_1)" "Net-(J19-Pin_3)" "Net-(J2-Pin_10)" "Net-(J2-Pin_2)"
-      "Net-(J2-Pin_4)" "Net-(J2-Pin_6)" "Net-(J2-Pin_8)" "Net-(J21-Pin_3)"
-      "Net-(J5-Pin_10)" "Net-(J5-Pin_2)" "Net-(J5-Pin_4)" "Net-(J5-Pin_6)"
-      "Net-(J5-Pin_8)" "Net-(J7-Pin_10)" "Net-(J7-Pin_2)" "Net-(J7-Pin_4)"
-      "Net-(J7-Pin_6)" "Net-(J7-Pin_8)" "Net-(JP2-B)" "Net-(JP3-A)" "Net-(P12-Pin_2)"
-      "Net-(U1-Pad12)" "Net-(U1-Pad6)" "Net-(U1-Pad8)" "Net-(U10-Pad1)" "Net-(U10-Pad3)"
-      "Net-(U10-Pad5)" "Net-(U10-Pad6)" "Net-(U11-Pad3)" "Net-(U19-Pad2)"
-      "Net-(U21-Pad10)" "Net-(U21-Pad6)" "Net-(U21-Pad9)" "Net-(U22A-C)" "Net-(U22A-D)"
-      "Net-(U22A-~{S})" "Net-(U22B-~{R})" "Net-(U23-P=R)" "Net-(U25-A->B)"
-      "Net-(U30-CP)" "Net-(U31-O1a)" "Net-(U31-O2a)" "Net-(U34-I0a)" "Net-(U35-Q0)"
-      "Net-(U35-Q1)" "Net-(U35-Q2)" "Net-(U35-Q3)" "Net-(U35-Q4)" "Net-(U35-Q5)"
-      "Net-(U35-~{Mr})" "Net-(U37-Za)" "Net-(U37-Zb)" "Net-(U37-Zc)" "Net-(U37-Zd)"
-      "Net-(U38-O0)" "Net-(U38-O1)" "Net-(U38-O2)" "Net-(U38-O3)" "Net-(U38-O4)"
-      "Net-(U38-O5)" "Net-(U39-OEa)" "Net-(U4-Pad3)" "Net-(U4-Pad6)" "Net-(U40-Q0)"
-      "Net-(U40-Q1)" "Net-(U40-Q2)" "Net-(U40-Q3)" "Net-(U40-Q4)" "Net-(U40-Q5)"
-      "Net-(U40-Q6)" "Net-(U40-Q7)" "Net-(U47-XT)" "Net-(U47-XT1)" "Net-(U49-C1+)"
-      "Net-(U49-C1-)" "Net-(U49-C2+)" "Net-(U49-C2-)" "Net-(U49-VS+)" "Net-(U49-VS-)"
-      "Net-(U5-Pad13)" "Net-(U51-Q7)" "Net-(U53-Q7)" "Net-(U6-Pad3)" "Net-(U8-CE#)"
-      "Net-(U9-CE)" PD0 PD1 PD2 PD3 PD4 PD5 PD6 PD7 PG PULLUP1 PULLUP2 PULLUP3
-      PULLUP4 PWR_ON Q RX RX1 "R{slash}W" "SHADOW-IO" SMEMR SMEMW TX TX1 UUU
-      VCC VGA_B0 VGA_B1 VGA_G0 VGA_G1 VGA_HSYNC VGA_R0 VGA_R1 VGA_VSYNC "W{slash}R"
-      XM16 XM17 XM18 XM19 isa_iq_1 isa_iq_2 isa_iq_3 isa_iq_4 isa_iq_5 mA0
-      mA1 mA10 mA11 mA12 mA13 mA14 mA15 mA16 mA17 mA18 mA19 mA2 mA3 mA4 mA5
-      mA6 mA7 mA8 mA9 mD0 mD1 mD2 mD3 mD4 mD5 mD6 mD7 "unconnected-(J10-AEN-Pad42)"
-      "unconnected-(J10-DRQ1-Pad18)" "unconnected-(J10-DRQ2-Pad6)" "unconnected-(J10-DRQ3-Pad16)"
-      "unconnected-(J10-IO_READY-Pad41)" "unconnected-(J10-TC-Pad27)" "unconnected-(J10-UNUSED-Pad8)"
+      /VIAS/PC6 /VIAS/PC7 /VIAS/PPWR 5VSB AUDIO BUSAK BUSALE BUSCLK B_A0 B_A1
+      B_A10 B_A11 B_A12 B_A13 B_A14 B_A15 B_A16 B_A17 B_A18 B_A19 B_A2 B_A3
+      B_A4 B_A5 B_A6 B_A7 B_A8 B_A9 B_D0 B_D1 B_D2 B_D3 B_D4 B_D5 B_D6 B_D7
+      B_INT B_UUU "B_{slash}CLK" "B_{slash}INT" "B_{slash}IORQ" "B_{slash}MREQ"
+      "B_{slash}NMI" "B_{slash}RD" "B_{slash}WR" CD1 CD2 CLK CPU_BA CPU_BS
+      CPU_D0 CPU_D1 CPU_D2 CPU_D3 CPU_D4 CPU_D5 CPU_D6 CPU_D7 CPU_E CPU_Q
+      "CPU_R{slash}W" "CPU_{slash}RD" "CPU_{slash}WR" E ESP0_BUSY ESP0_IN
+      ESP0_INCLK ESP0_OUT ESP0_OUTCLK ESP0_RDYO ESP0_SEL ESP0_SPAREO ESP1_BUSY
+      ESP1_IN ESP1_INCLK ESP1_OUT ESP1_OUTCLK ESP1_RDYO ESP1_SEL ESPSTAT_SEL
+      IOR IOW KBDCLK KBDDAT LA0 LA1 LA10 LA11 LA12 LA13 LA14 LA15 LA2 LA3
+      LA4 LA5 LA6 LA7 LA8 LA9 MRDY MSECLK MSEDAT "Net-(C67-Pad1)" "Net-(D1-A)"
+      "Net-(D2-A)" "Net-(D3-K)" "Net-(D4-A)" "Net-(D5-K)" "Net-(D6-K)" "Net-(J1-Pin_10)"
+      "Net-(J1-Pin_2)" "Net-(J1-Pin_4)" "Net-(J1-Pin_6)" "Net-(J1-Pin_8)"
+      "Net-(J10-IRQ3)" "Net-(J10-IRQ4)" "Net-(J10-IRQ5)" "Net-(J10-IRQ6)"
+      "Net-(J10-IRQ7)" "Net-(J11-Pin_3)" "Net-(J13-Pin_2)" "Net-(J13-Pin_4)"
+      "Net-(J13-Pin_7)" "Net-(J13-Pin_9)" "Net-(J15-Pin_3)" "Net-(J15-Pin_4)"
+      "Net-(J15-Pin_5)" "Net-(J18-Pin_1)" "Net-(J19-Pin_3)" "Net-(J2-Pin_10)"
+      "Net-(J2-Pin_2)" "Net-(J2-Pin_4)" "Net-(J2-Pin_6)" "Net-(J2-Pin_8)"
+      "Net-(J21-Pin_3)" "Net-(J5-Pin_10)" "Net-(J5-Pin_2)" "Net-(J5-Pin_4)"
+      "Net-(J5-Pin_6)" "Net-(J5-Pin_8)" "Net-(J7-Pin_10)" "Net-(J7-Pin_2)"
+      "Net-(J7-Pin_4)" "Net-(J7-Pin_6)" "Net-(J7-Pin_8)" "Net-(JP2-B)" "Net-(JP3-A)"
+      "Net-(P12-Pin_2)" "Net-(U1-Pad12)" "Net-(U1-Pad6)" "Net-(U1-Pad8)" "Net-(U10-Pad1)"
+      "Net-(U10-Pad3)" "Net-(U10-Pad5)" "Net-(U10-Pad6)" "Net-(U11-Pad3)"
+      "Net-(U19-Pad2)" "Net-(U21-Pad10)" "Net-(U21-Pad6)" "Net-(U21-Pad9)"
+      "Net-(U22A-C)" "Net-(U22A-D)" "Net-(U22A-~{S})" "Net-(U22B-~{R})" "Net-(U23-P=R)"
+      "Net-(U25-A->B)" "Net-(U30-CP)" "Net-(U31-O1a)" "Net-(U31-O2a)" "Net-(U34-I0a)"
+      "Net-(U35-Q0)" "Net-(U35-Q1)" "Net-(U35-Q2)" "Net-(U35-Q3)" "Net-(U35-Q4)"
+      "Net-(U35-Q5)" "Net-(U35-~{Mr})" "Net-(U37-Za)" "Net-(U37-Zb)" "Net-(U37-Zc)"
+      "Net-(U37-Zd)" "Net-(U38-O0)" "Net-(U38-O1)" "Net-(U38-O2)" "Net-(U38-O3)"
+      "Net-(U38-O4)" "Net-(U38-O5)" "Net-(U39-OEa)" "Net-(U4-Pad3)" "Net-(U4-Pad6)"
+      "Net-(U40-Q0)" "Net-(U40-Q1)" "Net-(U40-Q2)" "Net-(U40-Q3)" "Net-(U40-Q4)"
+      "Net-(U40-Q5)" "Net-(U40-Q6)" "Net-(U40-Q7)" "Net-(U47-XT)" "Net-(U47-XT1)"
+      "Net-(U49-C1+)" "Net-(U49-C1-)" "Net-(U49-C2+)" "Net-(U49-C2-)" "Net-(U49-VS+)"
+      "Net-(U49-VS-)" "Net-(U5-Pad13)" "Net-(U51-Q7)" "Net-(U53-Q7)" "Net-(U6-Pad3)"
+      "Net-(U8-CE#)" "Net-(U9-CE)" PD0 PD1 PD2 PD3 PD4 PD5 PD6 PD7 PG PULLUP1
+      PULLUP2 PULLUP3 PULLUP4 PWR_ON Q RX RX1 "R{slash}W" "SHADOW-IO" SMEMR
+      SMEMW TC TX TX1 UUU VGA_B0 VGA_B1 VGA_G0 VGA_G1 VGA_HSYNC VGA_R0 VGA_R1
+      VGA_VSYNC "W{slash}R" XM16 XM17 XM18 XM19 isa_iq_1 isa_iq_2 isa_iq_3
+      isa_iq_4 isa_iq_5 mA0 mA1 mA10 mA11 mA12 mA13 mA14 mA15 mA16 mA17 mA18
+      mA19 mA2 mA3 mA4 mA5 mA6 mA7 mA8 mA9 mD0 mD1 mD2 mD3 mD4 mD5 mD6 mD7
+      "unconnected-(J10-AEN-Pad42)" "unconnected-(J10-DRQ1-Pad18)" "unconnected-(J10-DRQ2-Pad6)"
+      "unconnected-(J10-DRQ3-Pad16)" "unconnected-(J10-IO_READY-Pad41)" "unconnected-(J10-UNUSED-Pad8)"
       "unconnected-(J10-~{DACK0}-Pad19)" "unconnected-(J10-~{DACK1}-Pad17)"
       "unconnected-(J10-~{DACK2}-Pad26)" "unconnected-(J10-~{DACK3}-Pad15)"
       "unconnected-(J11-Pin_2-Pad2)" "unconnected-(J11-Pin_6-Pad6)" "unconnected-(J14-Pad11)"
@@ -3960,20 +4018,20 @@
       "unconnected-(J17-Pad2)" "unconnected-(J17-Pad6)" "unconnected-(J19-Pin_2-Pad2)"
       "unconnected-(J19-Pin_6-Pad6)" "unconnected-(J21-Pin_2-Pad2)" "unconnected-(J21-Pin_6-Pad6)"
       "unconnected-(J3-AEN-Pad42)" "unconnected-(J3-DRQ1-Pad18)" "unconnected-(J3-DRQ2-Pad6)"
-      "unconnected-(J3-DRQ3-Pad16)" "unconnected-(J3-IO_READY-Pad41)" "unconnected-(J3-TC-Pad27)"
-      "unconnected-(J3-UNUSED-Pad8)" "unconnected-(J3-~{DACK0}-Pad19)" "unconnected-(J3-~{DACK1}-Pad17)"
+      "unconnected-(J3-DRQ3-Pad16)" "unconnected-(J3-IO_READY-Pad41)" "unconnected-(J3-UNUSED-Pad8)"
+      "unconnected-(J3-~{DACK0}-Pad19)" "unconnected-(J3-~{DACK1}-Pad17)"
       "unconnected-(J3-~{DACK2}-Pad26)" "unconnected-(J3-~{DACK3}-Pad15)"
       "unconnected-(J4-AEN-Pad42)" "unconnected-(J4-DRQ1-Pad18)" "unconnected-(J4-DRQ2-Pad6)"
-      "unconnected-(J4-DRQ3-Pad16)" "unconnected-(J4-IO_READY-Pad41)" "unconnected-(J4-TC-Pad27)"
-      "unconnected-(J4-UNUSED-Pad8)" "unconnected-(J4-~{DACK0}-Pad19)" "unconnected-(J4-~{DACK1}-Pad17)"
+      "unconnected-(J4-DRQ3-Pad16)" "unconnected-(J4-IO_READY-Pad41)" "unconnected-(J4-UNUSED-Pad8)"
+      "unconnected-(J4-~{DACK0}-Pad19)" "unconnected-(J4-~{DACK1}-Pad17)"
       "unconnected-(J4-~{DACK2}-Pad26)" "unconnected-(J4-~{DACK3}-Pad15)"
       "unconnected-(J6-AEN-Pad42)" "unconnected-(J6-DRQ1-Pad18)" "unconnected-(J6-DRQ2-Pad6)"
-      "unconnected-(J6-DRQ3-Pad16)" "unconnected-(J6-IO_READY-Pad41)" "unconnected-(J6-TC-Pad27)"
-      "unconnected-(J6-UNUSED-Pad8)" "unconnected-(J6-~{DACK0}-Pad19)" "unconnected-(J6-~{DACK1}-Pad17)"
+      "unconnected-(J6-DRQ3-Pad16)" "unconnected-(J6-IO_READY-Pad41)" "unconnected-(J6-UNUSED-Pad8)"
+      "unconnected-(J6-~{DACK0}-Pad19)" "unconnected-(J6-~{DACK1}-Pad17)"
       "unconnected-(J6-~{DACK2}-Pad26)" "unconnected-(J6-~{DACK3}-Pad15)"
       "unconnected-(J8-AEN-Pad42)" "unconnected-(J8-DRQ1-Pad18)" "unconnected-(J8-DRQ2-Pad6)"
-      "unconnected-(J8-DRQ3-Pad16)" "unconnected-(J8-IO_READY-Pad41)" "unconnected-(J8-TC-Pad27)"
-      "unconnected-(J8-UNUSED-Pad8)" "unconnected-(J8-~{DACK0}-Pad19)" "unconnected-(J8-~{DACK1}-Pad17)"
+      "unconnected-(J8-DRQ3-Pad16)" "unconnected-(J8-IO_READY-Pad41)" "unconnected-(J8-UNUSED-Pad8)"
+      "unconnected-(J8-~{DACK0}-Pad19)" "unconnected-(J8-~{DACK1}-Pad17)"
       "unconnected-(J8-~{DACK2}-Pad26)" "unconnected-(J8-~{DACK3}-Pad15)"
       "unconnected-(P13-Pad1)" "unconnected-(P13-Pad12)" "unconnected-(P13-Pad13)"
       "unconnected-(P13-Pad2)" "unconnected-(P13-Pad3)" "unconnected-(P14-Pad1)"
@@ -4007,38 +4065,47 @@
       "unconnected-(U38-O7-Pad19)" "unconnected-(U39-I2b-Pad15)" "unconnected-(U39-I3b-Pad17)"
       "unconnected-(U39-O2b-Pad5)" "unconnected-(U39-O3b-Pad3)" "unconnected-(U4-Pad11)"
       "unconnected-(U4-Pad12)" "unconnected-(U4-Pad13)" "unconnected-(U42-O3-Pad12)"
-      "unconnected-(U42-O5-Pad10)" "unconnected-(U42-O6-Pad9)" "unconnected-(U45-I0a-Pad2)"
-      "unconnected-(U45-O0a-Pad18)" "unconnected-(U47-STDP-Pad1)" "unconnected-(U48-RxC-Pad5)"
-      "unconnected-(U48-XTAL2-Pad7)" "unconnected-(U50-QH'-Pad9)" "unconnected-(U51-DS-Pad10)"
-      "unconnected-(U51-~{Q7}-Pad7)" "unconnected-(U52-QH'-Pad9)" "unconnected-(U53-DS-Pad10)"
-      "unconnected-(U53-~{Q7}-Pad7)" "unconnected-(U54-3.3V-Pad16)" "unconnected-(U54-GPIO34-Pad4)"
-      "unconnected-(U54-GPIO35-Pad5)" "unconnected-(U54-GPIO39-Pad3)" "unconnected-(U55-3.3V-Pad16)"
-      "unconnected-(U55-GPIO12-Pad12)" "unconnected-(U55-GPIO13-Pad13)" "unconnected-(U55-GPIO14-Pad11)"
-      "unconnected-(U55-GPIO15-Pad18)" "unconnected-(U55-GPIO2-Pad19)" "unconnected-(U55-GPIO25-Pad8)"
-      "unconnected-(U55-GPIO26-Pad9)" "unconnected-(U55-GPIO27-Pad10)" "unconnected-(U55-GPIO34-Pad4)"
-      "unconnected-(U55-GPIO35-Pad5)" "unconnected-(U55-GPIO36-Pad2)" "unconnected-(U55-GPIO39-Pad3)"
-      "unconnected-(U55-GPIO4-Pad20)" "{slash}BUSAK" "{slash}FIRQ" "{slash}HALT"
-      "{slash}IORQ" "{slash}IOSEL-0EF80" "{slash}IOSEL-0EF90" "{slash}IOSEL-0EFA0"
-      "{slash}IOSEL-0EFB0" "{slash}IOSEL-0EFC0" "{slash}IOSEL-0EFD0" "{slash}IOSEL-0EFE0"
-      "{slash}IOSEL-0EFF0" "{slash}IRQ" "{slash}MMU-CLR-TASK-REG" "{slash}MMU-DISABLE"
-      "{slash}MMU-IO-PREFIX-RD" "{slash}NMI" "{slash}RD" "{slash}RESET" "{slash}VMA"
-      "{slash}WR" "~{ESP0_RD}" "~{ESP0_WR}" "~{ESP1_RD}" "~{ESP1_WR}" "~{ESP_RESET}"
-      "~{ESP_STAT}" "~{PRE_ESP0_RD}" "~{PRE_ESP0_WR}" "~{PRE_ESP1_RD}" "~{PRE_ESP1_WR}"
+      "unconnected-(U42-O5-Pad10)" "unconnected-(U45-I0a-Pad2)" "unconnected-(U45-O0a-Pad18)"
+      "unconnected-(U47-STDP-Pad1)" "unconnected-(U48-RxC-Pad5)" "unconnected-(U48-XTAL2-Pad7)"
+      "unconnected-(U50-QH'-Pad9)" "unconnected-(U51-DS-Pad10)" "unconnected-(U51-~{Q7}-Pad7)"
+      "unconnected-(U52-QH'-Pad9)" "unconnected-(U53-DS-Pad10)" "unconnected-(U53-~{Q7}-Pad7)"
+      "unconnected-(U54-3.3V-Pad16)" "unconnected-(U54-GPIO34-Pad4)" "unconnected-(U54-GPIO35-Pad5)"
+      "unconnected-(U54-GPIO39-Pad3)" "unconnected-(U55-3.3V-Pad16)" "unconnected-(U55-GPIO12-Pad12)"
+      "unconnected-(U55-GPIO13-Pad13)" "unconnected-(U55-GPIO14-Pad11)" "unconnected-(U55-GPIO15-Pad18)"
+      "unconnected-(U55-GPIO2-Pad19)" "unconnected-(U55-GPIO25-Pad8)" "unconnected-(U55-GPIO26-Pad9)"
+      "unconnected-(U55-GPIO27-Pad10)" "unconnected-(U55-GPIO34-Pad4)" "unconnected-(U55-GPIO35-Pad5)"
+      "unconnected-(U55-GPIO36-Pad2)" "unconnected-(U55-GPIO39-Pad3)" "unconnected-(U55-GPIO4-Pad20)"
+      "{slash}BUSAK" "{slash}FIRQ" "{slash}HALT" "{slash}IORQ" "{slash}IOSEL-0EF80"
+      "{slash}IOSEL-0EF90" "{slash}IOSEL-0EFA0" "{slash}IOSEL-0EFB0" "{slash}IOSEL-0EFC0"
+      "{slash}IOSEL-0EFD0" "{slash}IOSEL-0EFE0" "{slash}IOSEL-0EFF0" "{slash}IRQ"
+      "{slash}MMU-CLR-TASK-REG" "{slash}MMU-DISABLE" "{slash}MMU-IO-PREFIX-RD"
+      "{slash}NMI" "{slash}RD" "{slash}RESET" "{slash}VMA" "{slash}WR" "~{ESP0_RD}"
+      "~{ESP0_WR}" "~{ESP1_RD}" "~{ESP1_WR}" "~{ESP_RESET}" "~{ESP_STAT}"
+      "~{PRE_ESP0_RD}" "~{PRE_ESP0_WR}" "~{PRE_ESP1_RD}" "~{PRE_ESP1_WR}"
       (circuit
-        (use_via Via[0-1]_889:558.8_um)
+        (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 203.2)
-        (clearance 203.2)
+        (width 250)
+        (clearance 200)
       )
     )
-    (class Power +12V +3V3 -12V -5V /VIAS/PPWR GND
+    (class G_PLCC
       (circuit
-        (use_via Via[0-1]_889:558.8_um)
+        (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 609.6)
-        (clearance 203.2)
+        (width 700)
+        (clearance 200)
+      )
+    )
+    (class Power +12V -12V GND
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 200)
       )
     )
   )

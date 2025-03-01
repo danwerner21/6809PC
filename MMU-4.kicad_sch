@@ -6675,10 +6675,6 @@
 		(uuid "21a89058-9465-4efc-9f9f-bc512463a103")
 	)
 	(no_connect
-		(at 242.57 220.98)
-		(uuid "2cc20bb0-ba3a-49ea-b4be-f965944115ca")
-	)
-	(no_connect
 		(at 128.27 123.19)
 		(uuid "3132a3cc-01ae-4fb2-a3ea-64cf7135fe58")
 	)
@@ -7654,6 +7650,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 210.82) (xy 229.87 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c239e2d-01a5-47fa-b4b7-55cacbdd3101")
+	)
+	(wire
+		(pts
 			(xy 200.66 95.25) (xy 208.28 95.25)
 		)
 		(stroke
@@ -8261,6 +8267,16 @@
 			(type default)
 		)
 		(uuid "8ecd497c-1118-4e49-a0b4-abc44eb66c16")
+	)
+	(wire
+		(pts
+			(xy 229.87 243.84) (xy 241.3 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee00192-44a9-4fcc-ad88-2f6d13dcb154")
 	)
 	(wire
 		(pts
@@ -9024,6 +9040,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 208.28) (xy 232.41 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ac5b01-cd31-47f7-a944-8c01011053b3")
+	)
+	(wire
+		(pts
 			(xy 135.89 85.09) (xy 135.89 107.95)
 		)
 		(stroke
@@ -9301,6 +9327,16 @@
 			(type default)
 		)
 		(uuid "eb504566-c0d3-4511-b0c4-17c44b7f7089")
+	)
+	(wire
+		(pts
+			(xy 242.57 220.98) (xy 246.38 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec49ddd0-6c39-4d49-bd5c-e0d8180602d7")
 	)
 	(wire
 		(pts
@@ -9592,6 +9628,19 @@
 		)
 		(uuid "a28b9f15-1a46-49eb-8388-97e6e9e5bf15")
 	)
+	(text "Patch from V1.0 to V1.1\n* Connect U42 pin 9 to Slots pin 27 \n* LS138 U42 and U24 have miswired power\n* U24 Pin 6 should be VCC not GND"
+		(exclude_from_sim no)
+		(at 304.546 225.044 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "afeb3f67-8516-4e98-ba4f-3ee34eed16a4")
+	)
 	(text "SRAM - skinny 28-pin DIP\n35ns 8K or 32K; e.g.,\nany Cypress or JEDEC\npart."
 		(exclude_from_sim no)
 		(at 177.292 134.874 0)
@@ -9626,7 +9675,7 @@
 		(uuid "11a2804a-e2bb-4443-9cb8-f6a2ca98d316")
 	)
 	(label "/MMU-MAP-RW"
-		(at 158.75 248.92 180)
+		(at 157.48 248.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10181,6 +10230,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TC"
+		(shape output)
+		(at 246.38 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c276de9-563e-4461-95da-f5d898538845")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.9486 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12872,7 +12943,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000526f9d12")
 		(property "Reference" "U45"
-			(at 372.11 39.37 0)
+			(at 370.586 39.878 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14611,7 +14682,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 229.87 210.82 0)
+		(at 241.3 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14619,7 +14690,7 @@
 		(dnp no)
 		(uuid "519b8367-2e1a-4e6c-8991-f3288d611e20")
 		(property "Reference" "#PWR0136"
-			(at 229.87 208.28 0)
+			(at 241.3 241.3 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -14628,7 +14699,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 229.87 208.28 0)
+			(at 241.3 241.3 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -14636,7 +14707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 210.82 0)
+			(at 241.3 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +14716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 210.82 0)
+			(at 241.3 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +14725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 229.87 210.82 0)
+			(at 241.3 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15769,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 243.84 0)
+		(at 232.41 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15706,7 +15777,7 @@
 		(dnp no)
 		(uuid "f980a633-fa65-4c09-a3ce-377e13e8d17d")
 		(property "Reference" "#PWR0137"
-			(at 229.87 243.84 0)
+			(at 232.41 208.28 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15715,7 +15786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 245.618 0)
+			(at 232.41 210.058 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -15724,7 +15795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 243.84 0)
+			(at 232.41 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15733,7 +15804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 243.84 0)
+			(at 232.41 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15742,7 +15813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 243.84 0)
+			(at 232.41 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

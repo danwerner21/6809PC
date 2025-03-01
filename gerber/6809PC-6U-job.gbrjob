@@ -5,42 +5,59 @@
       "Application": "Pcbnew",
       "Version": "8.0.6"
     },
-    "CreationDate": "2025-02-01T13:02:13-06:00"
+    "CreationDate": "2025-02-28T18:50:49-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "6809PC-6U",
       "GUID": "36383039-5043-42d3-9655-2e6b69636164",
-      "Revision": "1/21/2025 001"
+      "Revision": "2/28/2025 001"
     },
     "Size": {
       "X": 244.2,
       "Y": 244.2
     },
-    "LayerNumber": 2,
-    "BoardThickness": 1.6002,
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2032,
-      "PadToTrack": 0.2032,
-      "TrackToTrack": 0.2032,
-      "MinLineWidth": 0.2032,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
       "TrackToRegion": 0.254,
       "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "6809PC-6U-Front.gtl",
+      "Path": "6809PC-6U-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "6809PC-6U-Back.gbl",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "6809PC-6U-In1_Cu.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "6809PC-6U-In2_Cu.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "6809PC-6U-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -51,6 +68,21 @@
     {
       "Path": "6809PC-6U-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "6809PC-6U-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "6809PC-6U-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "6809PC-6U-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
@@ -71,19 +103,43 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Front"
+      "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.5102,
+      "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "Front/Back",
-      "Notes": "Type: dielectric layer 1 (from Front to Back)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Back"
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.24,
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",

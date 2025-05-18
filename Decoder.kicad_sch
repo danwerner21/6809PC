@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -3484,8 +3484,20 @@
 		(uuid "fb656ee8-6d6f-4051-990a-a6d3737ec42a")
 	)
 	(no_connect
+		(at 157.48 151.13)
+		(uuid "0d3111fa-f824-45dd-9670-02b93ab5c259")
+	)
+	(no_connect
 		(at 157.48 143.51)
 		(uuid "7d7ce1e8-3358-4201-b2bd-1c24c88605d3")
+	)
+	(no_connect
+		(at 157.48 156.21)
+		(uuid "bf24e0f3-d066-479d-8ecd-747bc5f34b0e")
+	)
+	(no_connect
+		(at 157.48 153.67)
+		(uuid "e286f314-7085-4960-a4ca-9f776e586c80")
 	)
 	(polyline
 		(pts
@@ -3979,7 +3991,7 @@
 		)
 		(uuid "91767365-2885-4481-862b-400e78576391")
 	)
-	(text "$EFF0 - $EFFF      available\n$EFE0 - $EFEF      MMU Registers (3)\n$EFD0 - $EFDF      MMU Task Map (16)\n$EFC0 - $EFCF      Video (3)\n$EFB0 - $EFBF      VIA0 (16)\n$EFA0 - $EFAF      VIA1 (16)\n$EF90 - $EF9F      RTC  (16)\n$EF80 - $EF8F      ACIA (4)"
+	(text "$EFF0 - $EFFF      available\n$EFE0 - $EFEF      MMU Registers (3)\n$EFD0 - $EFDF      MMU Task Map (16)\n$EFC0 - $EFCF      available\n$EFB0 - $EFBF      available\n$EFA0 - $EFAF      available\n$EF90 - $EF9F      RTC  (16)\n$EF80 - $EF8F      ACIA (4)"
 		(exclude_from_sim no)
 		(at 206.502 164.338 0)
 		(effects

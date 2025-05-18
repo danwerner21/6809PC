@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -393,44 +393,6 @@
 		)
 	)
 	(sheet
-		(at 156.21 91.44)
-		(size 25.4 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00005274ff26")
-		(property "Sheetname" "VIAS"
-			(at 156.21 90.6014 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VIAS.kicad_sch"
-			(at 156.21 107.3662 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "6809PC-6U"
-				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 156.21 29.21)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
@@ -464,44 +426,6 @@
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 198.12 29.21)
-		(size 24.13 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2f5a8eb6-a687-4b49-9ac9-0d88430969ab")
-		(property "Sheetname" "ESP_IO"
-			(at 198.12 28.4984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ESP_IO.kicad_sch"
-			(at 198.12 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "6809PC-6U"
-				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc"
-					(page "14")
 				)
 			)
 		)

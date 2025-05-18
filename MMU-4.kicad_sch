@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -6573,6 +6573,12 @@
 		(uuid "88b1e320-c8ab-403f-a478-50edc7c1119d")
 	)
 	(junction
+		(at 213.36 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e96bd19-dd7c-4bb3-a885-a063ea75b113")
+	)
+	(junction
 		(at 175.26 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6920,7 +6926,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 218.44) (xy 212.09 218.44)
+			(xy 217.17 218.44) (xy 213.36 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7640,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 220.98) (xy 217.17 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8ea794-cdb5-4ae8-9818-89184d874521")
-	)
-	(wire
-		(pts
 			(xy 229.87 210.82) (xy 229.87 208.28)
 		)
 		(stroke
@@ -7880,6 +7876,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 220.98) (xy 213.36 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7e2b20-1017-4b01-83fc-6f1db58bb287")
+	)
+	(wire
+		(pts
 			(xy 81.28 154.94) (xy 106.68 154.94)
 		)
 		(stroke
@@ -7997,6 +8003,16 @@
 			(type default)
 		)
 		(uuid "7425f270-94bc-4453-8882-c3c7bda576bf")
+	)
+	(wire
+		(pts
+			(xy 213.36 218.44) (xy 213.36 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758b5463-c161-4ff7-a21f-5c8af4a0a282")
 	)
 	(wire
 		(pts
@@ -9447,6 +9463,16 @@
 			(type default)
 		)
 		(uuid "f81eea72-214d-430e-88ce-818837d8077f")
+	)
+	(wire
+		(pts
+			(xy 213.36 218.44) (xy 212.09 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e00155-6b57-45cc-86f7-3b68f8888f19")
 	)
 	(wire
 		(pts
@@ -11308,26 +11334,6 @@
 		(uuid "c97d6560-cb92-4d4f-82d9-4c7fddf3d0e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 393.7 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "mA6"
-		(shape input)
-		(at 190.5 220.98 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "cc1a1536-6976-4cfc-b29b-2f54b0a7ff64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

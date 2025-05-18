@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|303719250|91236401|057e47e8-08c3-4912-8595-3d3fd3ac42a4|cb12853b-5c93-4f13-b0c2-3b9b8c6d68b3"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -745,14 +743,6 @@
     [
       "00000000-0000-0000-0000-00005274ff22",
       "ACIA"
-    ],
-    [
-      "2f5a8eb6-a687-4b49-9ac9-0d88430969ab",
-      "ESP_IO"
-    ],
-    [
-      "00000000-0000-0000-0000-00005274ff26",
-      "VIAS"
     ]
   ],
   "text_variables": {}

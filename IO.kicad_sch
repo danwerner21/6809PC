@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -5886,6 +5886,10 @@
 		(uuid "52e3617b-f2c9-4636-b766-b92c217eaa83")
 	)
 	(no_connect
+		(at 279.4 38.1)
+		(uuid "67170905-4e37-4933-a31d-7dda809cd9a8")
+	)
+	(no_connect
 		(at 59.69 139.7)
 		(uuid "6fa87b47-9c1a-410f-9401-9ac2af022ccf")
 	)
@@ -7710,28 +7714,6 @@
 			)
 		)
 	)
-	(global_label "PULLUP4"
-		(shape input)
-		(at 279.4 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b6e58b0-274e-4bfb-b457-ecfdecba509a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.6023 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "B_A15"
 		(shape tri_state)
 		(at 309.88 137.16 0)
@@ -7808,6 +7790,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PULLUP3"
+		(shape input)
+		(at 279.4 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5afcff98-fc7f-406a-961e-45e00aabd152")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.6023 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8338,28 +8342,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PULLUP3"
-		(shape input)
-		(at 279.4 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2579e08-4817-416f-902f-43243dc4d63e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.6023 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

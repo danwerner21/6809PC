@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -3069,7 +3069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "M6242"
 			(at 111.4141 114.3 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M6242"
 			(at 109.22 121.92 0)
 			(effects
 				(font

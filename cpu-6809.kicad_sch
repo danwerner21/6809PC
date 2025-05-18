@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-01-21")
-		(rev "001")
+		(date "2025-05-17")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -12944,7 +12944,7 @@
 				)
 			)
 		)
-		(property "Value" "CONN_3"
+		(property "Value" "MMU-INTA"
 			(at 299.72 144.78 90)
 			(effects
 				(font

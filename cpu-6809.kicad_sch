@@ -8623,16 +8623,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 182.88) (xy 341.63 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8d2625-fac2-4322-a429-2078ac9e29d8")
-	)
-	(wire
-		(pts
 			(xy 194.31 222.25) (xy 194.31 241.3)
 		)
 		(stroke
@@ -8990,6 +8980,16 @@
 			(type default)
 		)
 		(uuid "7cd81e2f-4fa3-4d0e-b8b1-026413a3be6e")
+	)
+	(wire
+		(pts
+			(xy 257.81 195.58) (xy 257.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8c774c-4921-401e-acd0-ff629460da72")
 	)
 	(wire
 		(pts
@@ -9503,6 +9503,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 182.88) (xy 346.71 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1611a7e-f1d8-40be-876a-b32f019b2c58")
+	)
+	(wire
+		(pts
 			(xy 171.45 73.66) (xy 189.23 73.66)
 		)
 		(stroke
@@ -9733,16 +9743,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 182.88) (xy 300.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfee9826-06c8-499d-8aa9-af3ad6e0f0c9")
-	)
-	(wire
-		(pts
 			(xy 151.13 223.52) (xy 154.94 223.52)
 		)
 		(stroke
@@ -9750,6 +9750,16 @@
 			(type default)
 		)
 		(uuid "e15d1500-5e04-402d-8ba2-0aaae5c29047")
+	)
+	(wire
+		(pts
+			(xy 257.81 182.88) (xy 303.53 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15deeb8-1bed-4237-a4cc-09da22d95a52")
 	)
 	(wire
 		(pts
@@ -9830,6 +9840,16 @@
 			(type default)
 		)
 		(uuid "ea08aade-ec74-4809-adb9-d0977d6a008d")
+	)
+	(wire
+		(pts
+			(xy 238.76 195.58) (xy 242.57 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec074a82-84f1-4a0f-8f44-c7a613b02a23")
 	)
 	(wire
 		(pts
@@ -9953,16 +9973,15 @@
 		)
 		(uuid "74b424fa-a0d0-441b-b4fb-bb0f037d22fb")
 	)
-	(text "similar to /MREQ"
+	(text "Bus Address Latch Enable. The address bus is latched on the rising edge of this signal."
 		(exclude_from_sim no)
-		(at 350.52 168.91 0)
+		(at 243.078 201.422 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "be1540dc-9bde-496d-aa72-8ae8f444a94d")
+		(uuid "df68c4f1-389b-4e4f-9eb8-5b43989a05a0")
 	)
 	(text "UNIVERSAL\nOSCILLATOR"
 		(exclude_from_sim no)
@@ -10464,6 +10483,26 @@
 			)
 		)
 	)
+	(global_label "CPU_Q"
+		(shape input)
+		(at 238.76 195.58 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "3a009dde-34fc-4a34-acef-b74494d70137")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.76 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mD4"
 		(shape bidirectional)
 		(at 255.27 236.22 0)
@@ -10496,26 +10535,6 @@
 		(uuid "406080ca-f4ed-4fe2-b7ba-a1ee08c31325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "/IORQ"
-		(shape input)
-		(at 300.99 182.88 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "44762ba6-777e-4257-9a72-0b8386ab2059")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,26 +10903,6 @@
 			)
 		)
 	)
-	(global_label "B_/IORQ"
-		(shape output)
-		(at 341.63 182.88 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "66b8868a-3ac7-4e02-860c-7188e4e38679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.63 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "mD7"
 		(shape bidirectional)
 		(at 265.43 243.84 0)
@@ -11240,6 +11239,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUSALE"
+		(shape output)
+		(at 346.71 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ea888f-ff2c-49f9-aed3-380e54d8da62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 356.1167 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14414,6 +14435,109 @@
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8e8e"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS14")
+		(at 250.19 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "629169d9-4f18-46f2-a9bd-3f37181424ce")
+		(property "Reference" "U17"
+			(at 254 193.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "74LS14"
+			(at 255.27 198.12 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Custom:STD_DDW_DIP14"
+			(at 250.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
+			(at 250.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 250.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "c48321d7-12be-47ba-aa62-43d8ef824eb8")
+		)
+		(pin "7"
+			(uuid "553d27c7-22f3-4639-a1c9-87d4d224f7e9")
+		)
+		(pin "1"
+			(uuid "a48bf100-1acf-47f7-b521-b913c4e61809")
+		)
+		(pin "8"
+			(uuid "5fd8d228-3491-406e-84c5-873739d161cf")
+		)
+		(pin "6"
+			(uuid "81cbef71-b046-4cd6-9959-ee5a4349adf9")
+		)
+		(pin "9"
+			(uuid "619ca669-5085-427a-8d59-95c89193e2c7")
+		)
+		(pin "4"
+			(uuid "85ce4614-72e9-4fcd-b772-0dbedab80feb")
+		)
+		(pin "3"
+			(uuid "266f012b-db00-4456-b3bc-b47b7d0760dc")
+		)
+		(pin "10"
+			(uuid "c86eb729-a247-425c-880a-7ff0582625e3")
+		)
+		(pin "2"
+			(uuid "6b230546-2ef8-4580-8860-334abe99a6db")
+		)
+		(pin "12"
+			(uuid "6a6dcf64-8d00-4251-818b-7652a409388e")
+		)
+		(pin "13"
+			(uuid "55dc434f-b87c-4081-b865-9bebcb26c43a")
+		)
+		(pin "5"
+			(uuid "6035abc1-76e1-4a2f-a11c-f49ec9324574")
+		)
+		(pin "11"
+			(uuid "f5b5e8b2-2ad1-497d-acef-b65caaef46c7")
+		)
+		(instances
+			(project "6809PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526c8e8e"
+					(reference "U17")
 					(unit 1)
 				)
 			)

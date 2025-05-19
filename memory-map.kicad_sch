@@ -9055,17 +9055,6 @@
 		)
 		(uuid "3c8847cc-7f2b-4cec-9708-20495be84075")
 	)
-	(label "/SHADOW"
-		(at 185.42 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "40fe5432-b0ce-40c1-a2c3-298378e2ba74")
-	)
 	(global_label "mD2"
 		(shape output)
 		(at 382.27 50.8 0)
@@ -9622,6 +9611,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}SHADOW"
+		(shape input)
+		(at 165.1 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d66b23b-95b9-4ca8-9905-7926983d0a8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.758 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10304,6 +10315,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}ONBOARDRAM"
+		(shape input)
+		(at 386.08 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d810dd2b-adf4-4839-b1b8-ca4b3384bd49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.4416 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12458,7 +12491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Custom:STD_DDW_DIP28"
 			(at 360.68 66.04 0)
 			(effects
 				(font

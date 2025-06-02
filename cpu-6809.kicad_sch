@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-05-17")
-		(rev "002")
+		(date "2025-05-31")
+		(rev "003")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -10463,26 +10463,6 @@
 			)
 		)
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 78.74 220.98 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "385efd6a-83d3-4814-9821-8dc80db4a86c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CPU_Q"
 		(shape input)
 		(at 238.76 195.58 180)
@@ -11637,6 +11617,26 @@
 		(uuid "ca208611-e554-42dd-beb2-755dcb1af2f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CPU_E"
+		(shape input)
+		(at 78.74 220.98 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "cab7eee4-0122-4be0-823d-d7f8e251014e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

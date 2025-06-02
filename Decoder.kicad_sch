@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6809PC")
-		(date "2025-05-17")
-		(rev "002")
+		(date "2025-05-31")
+		(rev "003")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
@@ -3478,6 +3478,12 @@
 		(uuid "c8f861cb-7cd4-4376-aef2-8fb73a289295")
 	)
 	(junction
+		(at 124.46 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3570e00-d0ff-48c4-a362-520780fff620")
+	)
+	(junction
 		(at 92.71 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3711,7 +3717,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 144.78) (xy 132.08 144.78)
+			(xy 118.11 144.78) (xy 124.46 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3738,6 +3744,16 @@
 			(type default)
 		)
 		(uuid "64e1d691-a42d-4ea6-9ef9-d214d95ae104")
+	)
+	(wire
+		(pts
+			(xy 124.46 144.78) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7b896f-99a1-43fc-8d20-1c0e091651a8")
 	)
 	(wire
 		(pts
@@ -3811,6 +3827,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60eca99-b32f-4bc6-831c-51ebfed6263d")
+	)
+	(wire
+		(pts
 			(xy 157.48 153.67) (xy 160.02 153.67)
 		)
 		(stroke
@@ -3878,6 +3904,16 @@
 			(type default)
 		)
 		(uuid "d390b5a5-36c5-41a9-b8fc-5ef973fd946a")
+	)
+	(wire
+		(pts
+			(xy 124.46 144.78) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e23320-af2e-462c-b138-aad9ea70ca86")
 	)
 	(wire
 		(pts
@@ -4200,6 +4236,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}ONBOARDIO"
+		(shape output)
+		(at 134.62 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61fca8c7-ae8d-4b14-9def-d98a39a22079")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.1069 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

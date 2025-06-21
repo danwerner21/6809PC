@@ -566,7 +566,7 @@
       "keep_tabs": false,
       "name": "---",
       "ref_delimiter": ",",
-      "ref_range_delimiter": "",
+      "ref_range_delimiter": "-",
       "string_delimiter": ""
     },
     "bom_presets": [],

@@ -38,13 +38,13 @@ P18 - Serial Port Connection
 ### Bill Of Materials
 Reference|Value|Qty|Field1|Description
 ---------|-----|---|------|-----------
-C1,C2,C3,C4,C17|22 uF|5||Polarized capacitor
-C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C29,C30,C31,C32,C33,C36,C37,C38,C39,C40,C41,C42,C43,C44,C45,C46,C47,C48,C49,C50,C51,C52,C53,C54,C56,C58,C62|0.1 uF|49||Unpolarized capacitor
+C1-C4,C17|22 uF|5||Polarized capacitor
+C5-C16,C18-C27,C29-C33,C36-C54,C56,C58,C62|0.1 uF|49||Unpolarized capacitor
 C28|1uF|1||Polarized capacitor
 C35|10uF|1||Polarized capacitor
 C57|0.01 uF|1||Unpolarized capacitor
 C59,C60|15pf|2||Unpolarized capacitor
-C61,C63,C64,C65,C66|1.0 uF|5||Polarized capacitor
+C61,C63-C66|1.0 uF|5||Polarized capacitor
 D1,D2|1N4148|2||Diode
 D3,D4|D|2||Diode
 J1,J2,J5,J7,J9,J13|IRQ Selection|6||Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
@@ -81,13 +81,13 @@ U7,U10,U16|74LS32|3||Quad 2-input OR
 U8|SRAM_512K|1||512K x 8 Low Power CMOS RAM, DIP-32
 U9,U15|74LS08|2||Quad And2
 U11|27C256|1||OTP EPROM 256 KiBit
+U12,U22|74LS74|2||Dual D Flip-flop, Set & Reset
 U17|74LS14|1||Hex inverter schmitt trigger
 U18|74LS06|1||Inverter Open Collect
 U19|74HCT14|1||Hex inverter schmitt trigger
-U22|74LS74|1||Dual D Flip-flop, Set & Reset
 U23|74LS688|1||8-bit magnitude comparator
 U24,U42|74LS138|2||Decoder 3 to 8 active low outputs
-U25,U26,U27,U28,U32,U41|74LS245|6||Octal BUS Transceivers, 3-State outputs
+U25-U28,U32,U41|74LS245|6||Octal BUS Transceivers, 3-State outputs
 U29|DS1233|1||
 U30|74LS163|1||Synchronous 4-bit programmable binary Counter
 U31|74LS240|1||Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs

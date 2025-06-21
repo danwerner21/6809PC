@@ -3,7 +3,13 @@ The 6809PC is a 6809 ATX format board with 512K RAM, 4K ROM, with a flexible pro
 
 See this repo (https://github.com/danwerner21/CUBIX09) for ROM image and operating system.
 
+![System](images/6809PC.jpg)
+
 ## BUGS
+I have not built the 1.31 version, but it contains fixes for the only bug found in the 1.30 version which was in the ATX power switch circuit. The ICs in that circuit were not powered by standby power, they were powered by +5 which made them non-functional.  There are no known remaining bugs in the 1.31 board.
+
+
+
 
 ### Jumper Settings
 J1,J2,J5,J7,J9,J13 - ISA SLOT IRQ Selection

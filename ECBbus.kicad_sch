@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "6809PC")
-		(date "2025-05-31")
-		(rev "003")
+		(date "2025-06-20")
+		(rev "004")
 		(comment 1 "https://github.com/danwerner21/6809PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)

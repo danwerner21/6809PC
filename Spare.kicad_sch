@@ -6116,10 +6116,6 @@
 		(uuid "1f515220-b344-4ec4-a45e-50aa2860d72e")
 	)
 	(no_connect
-		(at 212.09 139.7)
-		(uuid "26f9cde2-f371-4a2e-be22-9d33463721a9")
-	)
-	(no_connect
 		(at 237.49 115.57)
 		(uuid "2c0f98c9-8909-44b3-88fa-9ff35a8a7e7b")
 	)
@@ -6138,10 +6134,6 @@
 	(no_connect
 		(at 212.09 160.02)
 		(uuid "53647807-b84e-4d37-8a64-087c5324375a")
-	)
-	(no_connect
-		(at 196.85 139.7)
-		(uuid "538c201d-5fb6-4b5e-a775-10767058c715")
 	)
 	(no_connect
 		(at 252.73 87.63)
@@ -7534,109 +7526,6 @@
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d48aa"
 					(reference "U6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS14")
-		(at 204.47 139.7 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87cd5808-76cd-40b4-a4b3-9433a8abee3d")
-		(property "Reference" "U17"
-			(at 209.423 136.779 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 209.296 142.875 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_DIP14"
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 204.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "442854b9-70d3-4d1e-8f2b-c7e2cf3e0bcd")
-		)
-		(pin "8"
-			(uuid "79cdfc1a-8ed9-4e5e-a98f-2c8a891c27fa")
-		)
-		(pin "7"
-			(uuid "5f7f392f-5fe6-41f2-9c78-635a7391edf4")
-		)
-		(pin "9"
-			(uuid "1198726c-5137-4465-8cc4-fba6656c2c58")
-		)
-		(pin "14"
-			(uuid "99902b58-2861-49c4-8826-b0ddc605db9a")
-		)
-		(pin "1"
-			(uuid "3fbe34b4-9357-469c-a1b4-d9db9b51529b")
-		)
-		(pin "4"
-			(uuid "778497bc-0b22-4c4e-9db9-8357454b369c")
-		)
-		(pin "3"
-			(uuid "30942859-13cf-45cb-86b7-dd3374947716")
-		)
-		(pin "6"
-			(uuid "b1736d4c-b499-4737-bfc8-5ec362f06401")
-		)
-		(pin "5"
-			(uuid "1593bfe5-b4d8-491a-832f-80a0e002c562")
-		)
-		(pin "12"
-			(uuid "806b0023-cccc-43f5-a8ad-222e8da77235")
-		)
-		(pin "13"
-			(uuid "00422e38-bc51-4a5e-807f-90be2faa0e12")
-		)
-		(pin "11"
-			(uuid "68172613-5e0e-4dc9-bf9a-bdb13821e455")
-		)
-		(pin "10"
-			(uuid "3c91233a-a290-411e-9142-d065dc2be5fc")
-		)
-		(instances
-			(project "6809PC-6U"
-				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-0000526d48aa"
-					(reference "U17")
 					(unit 4)
 				)
 			)

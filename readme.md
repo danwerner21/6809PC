@@ -6,7 +6,7 @@ See this repo (https://github.com/danwerner21/CUBIX09) for ROM image and operati
 ![System](images/6809PC.jpg)
 
 ## BUGS
-I have not built the 1.31 version, but it contains fixes for the only bug found in the 1.30 version which was in the ATX power switch circuit. The ICs in that circuit were not powered by standby power, they were powered by +5 which made them non-functional.  There are no known remaining bugs in the 1.31 board.
+I have not built the 1.31 version, but it contains fixes for the only bug found in the 1.30 version which was in the ATX power switch circuit. The ICs in that circuit were not powered by standby power, they were powered by +5 which made them non-functional. Also the reset line on the ISA bus has the wrong polarity -- it should be active high.  There are no known remaining bugs in the 1.31 board.
 
 
 
